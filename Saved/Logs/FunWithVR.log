@@ -1,0 +1,1773 @@
+﻿Log file open, 10/19/14 14:50:05
+LogInit:Display: Running engine for game: FunWithVR
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.19-18.50.05:589][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.10.19-18.50.05:640][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.19-18.50.05:657][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.19-18.50.05:666][  0]LogInit: Object subsystem initialized
+[2014.10.19-18.50.05:669][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.10.19-18.50.05:669][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/git/FunWithVR/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.19-18.50.05:669][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.10.19-18.50.05:669][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/git/FunWithVR/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.19-18.50.05:669][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.19-18.50.05:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.19-18.50.05:676][  0]LogInit: Computer: RUSS-DESKTOP
+[2014.10.19-18.50.05:676][  0]LogInit: User: russe000
+[2014.10.19-18.50.05:677][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.10.19-18.50.05:677][  0]LogInit: High frequency timer resolution =3.126770 MHz
+[2014.10.19-18.50.05:677][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=131072.0GB
+[2014.10.19-18.50.05:677][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.19-18.50.05:677][  0]LogMemory: Process Physical Memory: 63.14 MB used, 63.14 MB peak
+[2014.10.19-18.50.05:677][  0]LogMemory: Process Virtual Memory: 38.63 MB used, 39.13 MB peak
+[2014.10.19-18.50.05:677][  0]LogMemory: Physical Memory: 7726.70 MB used, 32706.90 MB total
+[2014.10.19-18.50.05:677][  0]LogMemory: Virtual Memory: 279.52 MB used, 134217728.00 MB total
+[2014.10.19-18.50.05:701][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 580 (Feature Level 11_0)
+[2014.10.19-18.50.05:701][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
+[2014.10.19-18.50.05:712][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 580 (Feature Level 11_0)
+[2014.10.19-18.50.05:713][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
+[2014.10.19-18.50.05:714][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.19-18.50.05:714][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.19-18.50.05:714][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.19-18.50.05:718][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.19-18.50.05:725][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.19-18.50.05:779][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.10.19-18.50.05:913][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.19-18.50.10:134][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-18.50.10:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-18.50.10:543][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.19-18.50.10:588][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.19-18.50.10:588][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.10.19-18.50.10:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../git/FunWithVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.19-18.50.10:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.19-18.50.10:646][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.19-18.50.10:658][  0]LogDerivedDataCache: Using Local data cache path D:/Users/russe_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.10.19-18.50.10:811][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.19-18.50.10:811][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.19-18.50.11:038][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-18.50.11:041][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-18.50.11:194][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.19-18.50.11:908][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.19-18.50.12:152][  0]SourceControl: Info Source control is disabled
+[2014.10.19-18.50.12:152][  0]SourceControl: Info Source control is disabled
+[2014.10.19-18.50.12:158][  0]SourceControl: Info Source control is disabled
+[2014.10.19-18.50.12:254][  0]LogObj: 23018 objects as part of root set at end of initial load.
+[2014.10.19-18.50.12:254][  0]LogUObjectAllocator: 4823912 out of 0 bytes used by permanent object pool.
+[2014.10.19-18.50.12:303][  0]LogEngine: Initializing Engine...
+[2014.10.19-18.50.12:418][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2014.10.19-18.50.12:427][  0]LogInit: FAudioDevice initialized.
+[2014.10.19-18.50.12:442][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.19-18.50.12:460][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.19-18.50.12:466][  0]LogInit: Texture streaming: Enabled
+[2014.10.19-18.50.12:499][  0]LogInit: Transaction tracking system initialized
+[2014.10.19-18.50.12:568][  0]BlueprintLog: New page: Editor Load
+[2014.10.19-18.50.12:594][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2014.10.19-18.50.12:594][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.10.19-18.50.12:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-18.50.13:298][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.19-18.50.13:452][  0]LogConsoleResponse:Display: 
+[2014.10.19-18.50.13:601][  0]SourceControl: Info Source control is disabled
+[2014.10.19-18.50.13:601][  0]Cmd: MAP LOAD FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.19-18.50.13:601][  0]LightingResults: New page: Lighting Build
+[2014.10.19-18.50.13:608][  0]MapCheck: New page: Map Check
+[2014.10.19-18.50.13:608][  0]LightingResults: New page: Lighting Build
+[2014.10.19-18.50.13:618][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A738BBA0
+[2014.10.19-18.50.13:753][  0]LoadErrors:Error: Error Failed import for ObjectProperty
+[2014.10.19-18.50.13:838][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.19-18.50.13:838][  0]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.50.13:839][  0]Cmd: MAP CHECKDEP
+[2014.10.19-18.50.13:839][  0]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:50:13 AM
+[2014.10.19-18.50.13:909][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.801ms to complete.
+[2014.10.19-18.50.13:909][  0]LogFileHelpers: Loading map 'TheFunHouse' took 0.308
+[2014.10.19-18.50.13:996][  0]LogCollectionManager: Loaded 0 collections in 0.000625 seconds
+[2014.10.19-18.50.14:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.19-18.50.14:174][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.10.19-18.50.14:202][  0]LogLoad: Full Startup: 9.69 seconds (BP compile: 0.08 seconds)
+[2014.10.19-18.50.14:545][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2014.10.19-18.50.14:729][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x952.
+[2014.10.19-18.50.15:267][  2]LogAssetRegistry: Asset discovery search completed in 2.6840 seconds
+[2014.10.19-18.50.26:936][781]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.50.26:936][781]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.50.27:004][781]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.10.19-18.50.27:004][781]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:50:27 AM)
+[2014.10.19-18.50.27:007][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002370s)
+[2014.10.19-18.50.27:007][781]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2014.10.19-18.50.27:007][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003051s)
+[2014.10.19-18.50.27:791][781]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2014.10.19-18.50.27:841][781]LogBlueprint:Warning: [compiler] Warning [0023.33] Compile of ContextMenu successful, but with 1 Warning(s) [in 69 ms]
+[2014.10.19-18.50.28:028][781]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.19-18.50.28:028][781]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.19-18.50.28:053][781]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.19-18.50.28:053][781]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.19-18.50.28:058][781]LogBlueprint:Warning: [compiler] Warning [0023.54] Compile of VRPlayerController successful, but with 4 Warning(s) [in 45 ms]
+[2014.10.19-18.50.28:104][781]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.19-18.50.28:105][781]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.19-18.50.28:127][781]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.19-18.50.28:127][781]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.19-18.50.28:134][781]LogBlueprint:Warning: [compiler] Warning [0023.62] Compile of VRPlayerController successful, but with 4 Warning(s) [in 42 ms]
+[2014.10.19-18.50.28:205][781]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2014.10.19-18.50.28:263][781]LogBlueprint:Warning: [compiler] Warning [0023.75] Compile of ContextMenu successful, but with 1 Warning(s) [in 77 ms]
+[2014.10.19-18.50.28:357][781]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.50.28:359][781]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.50.28:360][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.50.28
+[2014.10.19-18.50.28:361][781]LogWorld: Bringing up level for play took: 0.001480
+[2014.10.19-18.50.28:364][781]Cmd: oculusdev on 
+[2014.10.19-18.50.28:364][781]Command not recognized: oculusdev on 
+[2014.10.19-18.50.28:364][781]Cmd: hmdwarp 1=1 
+[2014.10.19-18.50.28:364][781]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.50.28:364][781]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.50.28:364][781]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.50.28:364][781]Cmd: hmd sp 130.0
+[2014.10.19-18.50.28:364][781]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.50.28:364][781]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.50.28:365][781]LogClass: Myo Hub Initialized.
+[2014.10.19-18.50.28:365][781]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.50.28:366][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.407
+[2014.10.19-18.50.34:674][212]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.50.34:744][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A2879F80
+[2014.10.19-18.51.28:964][494]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.19-18.51.31:993][726]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.51.31:993][726]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.51.32:067][726]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.10.19-18.51.32:067][726]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:51:32 AM)
+[2014.10.19-18.51.32:070][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002272s)
+[2014.10.19-18.51.32:070][726]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2014.10.19-18.51.32:071][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.002974s)
+[2014.10.19-18.51.32:101][726]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.51.32:103][726]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.51.32:104][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.51.32
+[2014.10.19-18.51.32:104][726]LogWorld: Bringing up level for play took: 0.001146
+[2014.10.19-18.51.32:107][726]Cmd: oculusdev on 
+[2014.10.19-18.51.32:107][726]Command not recognized: oculusdev on 
+[2014.10.19-18.51.32:107][726]Cmd: hmdwarp 1=1 
+[2014.10.19-18.51.32:107][726]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.51.32:107][726]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.51.32:107][726]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.51.32:107][726]Cmd: hmd sp 130.0
+[2014.10.19-18.51.32:107][726]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.51.32:108][726]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.51.32:109][726]LogClass: Myo Hub Initialized.
+[2014.10.19-18.51.32:109][726]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.51.32:110][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.849
+[2014.10.19-18.51.45:113][754]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.51.45:158][754]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7B1F21C60
+[2014.10.19-18.52.38:132][296]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.52.38:132][296]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.52.38:202][296]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2014.10.19-18.52.38:203][296]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:52:38 AM)
+[2014.10.19-18.52.38:205][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2014.10.19-18.52.38:206][296]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2014.10.19-18.52.38:206][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003593s)
+[2014.10.19-18.52.38:240][296]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.52.38:242][296]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.52.38:243][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.52.38
+[2014.10.19-18.52.38:243][296]LogWorld: Bringing up level for play took: 0.000970
+[2014.10.19-18.52.38:245][296]Cmd: oculusdev on 
+[2014.10.19-18.52.38:245][296]Command not recognized: oculusdev on 
+[2014.10.19-18.52.38:245][296]Cmd: hmdwarp 1=1 
+[2014.10.19-18.52.38:246][296]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.52.38:246][296]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.52.38:246][296]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.52.38:246][296]Cmd: hmd sp 130.0
+[2014.10.19-18.52.38:246][296]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.52.38:246][296]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.52.38:247][296]LogClass: Myo Hub Initialized.
+[2014.10.19-18.52.38:247][296]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.52.38:248][296]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.711
+[2014.10.19-18.53.15:849][459]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.53.15:894][459]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79DB660C0
+[2014.10.19-18.53.19:736][795]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.10.19-18.53.39:358][589]MapCheck: New page: Map Check
+[2014.10.19-18.53.39:379][589]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-18.53.39:379][589]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-18.53.39:421][589]LightingResults: New page: Lighting Build - Oct 19, 2014, 10:53:39 AM
+[2014.10.19-18.53.42:675][589]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-18.53.42:683][589]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-18.53.42:683][589]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-18.53.42:683][589]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-18.53.42:683][589]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-18.53.42:683][589]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-18.53.42:773][589]LogEditorBuildUtils: Build time 0:00:03
+[2014.10.19-18.53.42:791][589]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Clear, compiling.
+[2014.10.19-18.53.42:796][589]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Clear, compiling.
+[2014.10.19-18.53.42:856][590]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Clear_Glass_Transition, compiling.
+[2014.10.19-18.53.42:858][590]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Clear_Glass_Transition, compiling.
+[2014.10.19-18.53.44:436][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (main_room_no_wall)
+[2014.10.19-18.53.45:158][654]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-18.53.45:325][669]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-18.53.45:326][669]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-18.53.45:361][672]Job is a success!
+[2014.10.19-18.53.45:459][673]LogMaterial:Warning: Material /Game/Materials/M_Clear.M_Clear needed to have new flag set bUsedWithStaticLighting !
+[2014.10.19-18.53.45:460][673]LogMaterial: Missing cached shader map for material M_Clear, compiling.
+[2014.10.19-18.53.45:499][673]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-18.53.45:526][673]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.19-18.53.45:559][673]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.19-18.53.45:645][673]Lightmass on RUSS-DESKTOP: 1.18 sec total, 144 ms importing, 4 ms setup, 502 ms photons, 515 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 5.18 sec total, 613 ms processing.
+[2014.10.19-18.53.45:688][673]LogStaticLightingSystem:Warning: Illumination: 6.23 sec (105 ms encoding lightmaps)
+[2014.10.19-18.53.45:688][673]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.53.45:688][673]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.19-18.53.46:843][674]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-18.53.46:843][674]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:53:46 AM
+[2014.10.19-18.53.46:990][674]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 147.242ms to complete.
+[2014.10.19-18.53.49:819][887]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.53.49:819][887]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2014.10.19-18.53.49:862][887]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.53.49:928][887]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (2 blueprints)
+[2014.10.19-18.53.49:929][887]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:53:49 AM)
+[2014.10.19-18.53.49:931][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002376s)
+[2014.10.19-18.53.49:932][887]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2014.10.19-18.53.49:932][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003086s)
+[2014.10.19-18.53.49:960][887]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.53.49:962][887]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.53.49:963][887]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.53.49
+[2014.10.19-18.53.49:963][887]LogWorld: Bringing up level for play took: 0.001024
+[2014.10.19-18.53.49:965][887]Cmd: oculusdev on 
+[2014.10.19-18.53.49:965][887]Command not recognized: oculusdev on 
+[2014.10.19-18.53.49:965][887]Cmd: hmdwarp 1=1 
+[2014.10.19-18.53.49:965][887]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.53.49:965][887]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.53.49:966][887]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.53.49:966][887]Cmd: hmd sp 130.0
+[2014.10.19-18.53.49:966][887]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.53.49:966][887]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.53.49:967][887]LogClass: Myo Hub Initialized.
+[2014.10.19-18.53.49:967][887]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.53.49:968][887]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.009
+[2014.10.19-18.53.58:280][660]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.53.58:355][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79FBEB2E0
+[2014.10.19-18.53.59:392][752]LogEditorViewport: Clicking on Actor (LMB): P_Pedestal_C (P_Pedestal)
+[2014.10.19-18.54.18:087][480]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.54.18:087][480]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.54.18:155][480]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2014.10.19-18.54.18:155][480]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:54:18 AM)
+[2014.10.19-18.54.18:158][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
+[2014.10.19-18.54.18:159][480]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.10.19-18.54.18:159][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003358s)
+[2014.10.19-18.54.18:189][480]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.54.18:190][480]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.54.18:191][480]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.54.18
+[2014.10.19-18.54.18:192][480]LogWorld: Bringing up level for play took: 0.001187
+[2014.10.19-18.54.18:194][480]Cmd: oculusdev on 
+[2014.10.19-18.54.18:194][480]Command not recognized: oculusdev on 
+[2014.10.19-18.54.18:194][480]Cmd: hmdwarp 1=1 
+[2014.10.19-18.54.18:194][480]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.54.18:194][480]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.54.18:194][480]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.54.18:194][480]Cmd: hmd sp 130.0
+[2014.10.19-18.54.18:194][480]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.54.18:194][480]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.54.18:196][480]LogClass: Myo Hub Initialized.
+[2014.10.19-18.54.18:196][480]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.54.18:196][480]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.762
+[2014.10.19-18.54.29:495][586]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.54.29:553][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7B0675580
+[2014.10.19-18.54.39:492][403]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.54.39:492][403]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.54.39:561][403]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.10.19-18.54.39:561][403]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:54:39 AM)
+[2014.10.19-18.54.39:564][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002394s)
+[2014.10.19-18.54.39:564][403]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2014.10.19-18.54.39:564][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003067s)
+[2014.10.19-18.54.39:599][403]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.54.39:601][403]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.54.39:602][403]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.54.39
+[2014.10.19-18.54.39:602][403]LogWorld: Bringing up level for play took: 0.001037
+[2014.10.19-18.54.39:605][403]Cmd: oculusdev on 
+[2014.10.19-18.54.39:605][403]Command not recognized: oculusdev on 
+[2014.10.19-18.54.39:605][403]Cmd: hmdwarp 1=1 
+[2014.10.19-18.54.39:605][403]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.54.39:605][403]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.54.39:605][403]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.54.39:605][403]Cmd: hmd sp 130.0
+[2014.10.19-18.54.39:605][403]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.54.39:605][403]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.54.39:606][403]LogClass: Myo Hub Initialized.
+[2014.10.19-18.54.39:606][403]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.54.39:607][403]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.649
+[2014.10.19-18.54.42:267][668]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.54.42:330][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7B2036B60
+[2014.10.19-18.54.43:755][785]MapCheck: New page: Map Check
+[2014.10.19-18.54.43:780][785]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-18.54.43:780][785]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-18.54.43:831][785]LightingResults: New page: Lighting Build - Oct 19, 2014, 10:54:43 AM
+[2014.10.19-18.54.48:408][785]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-18.54.48:414][785]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-18.54.48:414][785]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-18.54.48:414][785]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-18.54.48:414][785]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-18.54.48:414][785]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-18.54.48:462][785]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-18.54.49:494][837]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-18.54.49:675][852]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-18.54.49:675][852]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-18.54.49:696][852]Job is a success!
+[2014.10.19-18.54.49:802][854]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.19-18.54.49:821][854]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.19-18.54.49:839][854]Lightmass on RUSS-DESKTOP: 1.06 sec total, 148 ms importing, 4 ms setup, 502 ms photons, 395 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 3.86 sec total, 633 ms processing.
+[2014.10.19-18.54.49:869][854]LogStaticLightingSystem:Warning: Illumination: 6.00 sec (39 ms encoding lightmaps)
+[2014.10.19-18.54.49:869][854]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.54.49:869][854]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2014.10.19-18.54.54:431][855]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-18.54.54:431][855]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:54:54 AM
+[2014.10.19-18.54.54:565][855]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 133.747ms to complete.
+[2014.10.19-18.54.57:616][107]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.54.57:616][107]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.54.57:683][107]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2014.10.19-18.54.57:683][107]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:54:57 AM)
+[2014.10.19-18.54.57:686][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002386s)
+[2014.10.19-18.54.57:686][107]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2014.10.19-18.54.57:686][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003057s)
+[2014.10.19-18.54.57:716][107]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.54.57:718][107]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.54.57:719][107]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.54.57
+[2014.10.19-18.54.57:719][107]LogWorld: Bringing up level for play took: 0.000984
+[2014.10.19-18.54.57:721][107]Cmd: oculusdev on 
+[2014.10.19-18.54.57:722][107]Command not recognized: oculusdev on 
+[2014.10.19-18.54.57:722][107]Cmd: hmdwarp 1=1 
+[2014.10.19-18.54.57:722][107]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.54.57:722][107]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.54.57:722][107]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.54.57:722][107]Cmd: hmd sp 130.0
+[2014.10.19-18.54.57:722][107]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.54.57:722][107]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.54.57:723][107]LogClass: Myo Hub Initialized.
+[2014.10.19-18.54.57:723][107]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.54.57:724][107]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.765
+[2014.10.19-18.55.02:864][604]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.55.02:925][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79C28FB00
+[2014.10.19-18.55.45:974][209]LogEditorViewport: Clicking on Actor (LMB): P_Pedestal_C (P_Pedestal)
+[2014.10.19-18.55.48:870][469]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.10.19-18.55.52:979][849]EditorErrors: New page: Actor attachment
+[2014.10.19-18.56.22:376][417]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.56.22:376][417]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.56.22:430][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.19-18.56.22:446][417]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2014.10.19-18.56.22:446][417]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:56:22 AM)
+[2014.10.19-18.56.22:449][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002456s)
+[2014.10.19-18.56.22:449][417]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2014.10.19-18.56.22:449][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003194s)
+[2014.10.19-18.56.22:477][417]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.56.22:479][417]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.56.22:480][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.56.22
+[2014.10.19-18.56.22:480][417]LogWorld: Bringing up level for play took: 0.001017
+[2014.10.19-18.56.22:482][417]Cmd: oculusdev on 
+[2014.10.19-18.56.22:483][417]Command not recognized: oculusdev on 
+[2014.10.19-18.56.22:483][417]Cmd: hmdwarp 1=1 
+[2014.10.19-18.56.22:483][417]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.56.22:483][417]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.56.22:483][417]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.56.22:483][417]Cmd: hmd sp 130.0
+[2014.10.19-18.56.22:483][417]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.56.22:483][417]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.56.22:484][417]LogClass: Myo Hub Initialized.
+[2014.10.19-18.56.22:484][417]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.56.22:485][417]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.474
+[2014.10.19-18.56.24:534][626]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.56.24:592][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A491ECA0
+[2014.10.19-18.56.36:937][859]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.56.36:937][859]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.56.37:005][859]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.10.19-18.56.37:005][859]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:56:37 AM)
+[2014.10.19-18.56.37:008][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002502s)
+[2014.10.19-18.56.37:008][859]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2014.10.19-18.56.37:008][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003176s)
+[2014.10.19-18.56.37:038][859]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.56.37:040][859]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.56.37:041][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.56.37
+[2014.10.19-18.56.37:041][859]LogWorld: Bringing up level for play took: 0.001016
+[2014.10.19-18.56.37:043][859]Cmd: oculusdev on 
+[2014.10.19-18.56.37:043][859]Command not recognized: oculusdev on 
+[2014.10.19-18.56.37:043][859]Cmd: hmdwarp 1=1 
+[2014.10.19-18.56.37:043][859]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.56.37:043][859]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.56.37:043][859]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.56.37:043][859]Cmd: hmd sp 130.0
+[2014.10.19-18.56.37:043][859]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.56.37:044][859]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.56.37:045][859]LogClass: Myo Hub Initialized.
+[2014.10.19-18.56.37:045][859]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.56.37:046][859]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.087
+[2014.10.19-18.56.39:334][100]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.56.39:426][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79EFA6F20
+[2014.10.19-18.57.15:236][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_shell)
+[2014.10.19-18.57.16:436][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (main_room_no_wall)
+[2014.10.19-18.57.17:059][ 61]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2014.10.19-18.57.35:712][106]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.57.35:712][106]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.57.35:779][106]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2014.10.19-18.57.35:780][106]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:57:35 AM)
+[2014.10.19-18.57.35:782][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002560s)
+[2014.10.19-18.57.35:783][106]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2014.10.19-18.57.35:783][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003274s)
+[2014.10.19-18.57.35:818][106]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.57.35:819][106]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.57.35:820][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.57.35
+[2014.10.19-18.57.35:821][106]LogWorld: Bringing up level for play took: 0.001059
+[2014.10.19-18.57.35:823][106]Cmd: oculusdev on 
+[2014.10.19-18.57.35:823][106]Command not recognized: oculusdev on 
+[2014.10.19-18.57.35:823][106]Cmd: hmdwarp 1=1 
+[2014.10.19-18.57.35:823][106]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.57.35:823][106]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.57.35:823][106]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.57.35:823][106]Cmd: hmd sp 130.0
+[2014.10.19-18.57.35:823][106]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.57.35:823][106]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.57.35:824][106]LogClass: Myo Hub Initialized.
+[2014.10.19-18.57.35:824][106]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.57.35:825][106]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.866
+[2014.10.19-18.57.37:325][263]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.57.37:412][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AFFC5BC0
+[2014.10.19-18.57.41:191][603]MapCheck: New page: Map Check
+[2014.10.19-18.57.41:264][603]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-18.57.41:264][603]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-18.57.41:321][603]LightingResults: New page: Lighting Build - Oct 19, 2014, 10:57:41 AM
+[2014.10.19-18.57.45:885][603]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-18.57.45:891][603]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-18.57.45:891][603]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-18.57.45:891][603]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-18.57.45:891][603]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-18.57.45:891][603]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-18.57.45:941][603]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-18.57.46:934][649]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-18.57.47:289][677]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-18.57.47:289][677]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-18.57.47:403][687]Job is a success!
+[2014.10.19-18.57.47:503][689]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.19-18.57.47:528][689]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.19-18.57.47:557][689]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.10.19-18.57.47:570][689]Lightmass on RUSS-DESKTOP: 1.33 sec total, 138 ms importing, 4 ms setup, 508 ms photons, 676 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.94 sec total, 1.03 sec processing.
+[2014.10.19-18.57.47:604][689]LogStaticLightingSystem:Warning: Illumination: 6.24 sec (68 ms encoding lightmaps)
+[2014.10.19-18.57.47:604][689]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.57.47:604][689]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2014.10.19-18.57.47:941][690]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-18.57.47:941][690]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:57:47 AM
+[2014.10.19-18.57.48:044][690]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.86ms to complete.
+[2014.10.19-18.57.51:659][964]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.57.51:659][964]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.57.51:725][964]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2014.10.19-18.57.51:725][964]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:57:51 AM)
+[2014.10.19-18.57.51:727][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2014.10.19-18.57.51:728][964]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2014.10.19-18.57.51:728][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003171s)
+[2014.10.19-18.57.51:759][964]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.57.51:761][964]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.57.51:762][964]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.57.51
+[2014.10.19-18.57.51:762][964]LogWorld: Bringing up level for play took: 0.001012
+[2014.10.19-18.57.51:764][964]Cmd: oculusdev on 
+[2014.10.19-18.57.51:764][964]Command not recognized: oculusdev on 
+[2014.10.19-18.57.51:764][964]Cmd: hmdwarp 1=1 
+[2014.10.19-18.57.51:764][964]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.57.51:764][964]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.57.51:764][964]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.57.51:764][964]Cmd: hmd sp 130.0
+[2014.10.19-18.57.51:764][964]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.57.51:765][964]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.57.51:766][964]LogClass: Myo Hub Initialized.
+[2014.10.19-18.57.51:766][964]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.57.51:767][964]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.808
+[2014.10.19-18.57.55:147][313]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.57.55:205][313]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AFFC6A20
+[2014.10.19-18.58.08:830][598]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.58.08:830][598]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.58.08:907][598]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
+[2014.10.19-18.58.08:907][598]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:58:08 AM)
+[2014.10.19-18.58.08:910][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003437s)
+[2014.10.19-18.58.08:911][598]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2014.10.19-18.58.08:911][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.004204s)
+[2014.10.19-18.58.08:939][598]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.58.08:941][598]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.58.08:942][598]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.58.08
+[2014.10.19-18.58.08:942][598]LogWorld: Bringing up level for play took: 0.001053
+[2014.10.19-18.58.08:944][598]Cmd: oculusdev on 
+[2014.10.19-18.58.08:945][598]Command not recognized: oculusdev on 
+[2014.10.19-18.58.08:945][598]Cmd: hmdwarp 1=1 
+[2014.10.19-18.58.08:945][598]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.58.08:945][598]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.58.08:945][598]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.58.08:945][598]Cmd: hmd sp 130.0
+[2014.10.19-18.58.08:945][598]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.58.08:945][598]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.58.08:946][598]LogClass: Myo Hub Initialized.
+[2014.10.19-18.58.08:946][598]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.58.08:947][598]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.012
+[2014.10.19-18.58.09:839][691]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.58.09:931][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7B266A340
+[2014.10.19-18.58.12:219][887]MapCheck: New page: Map Check
+[2014.10.19-18.58.12:249][887]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-18.58.12:249][887]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-18.58.12:333][887]LightingResults: New page: Lighting Build - Oct 19, 2014, 10:58:12 AM
+[2014.10.19-18.58.16:895][887]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-18.58.16:905][887]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-18.58.16:905][887]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-18.58.16:905][887]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-18.58.16:905][887]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-18.58.16:905][887]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-18.58.16:969][887]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-18.58.17:972][936]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-18.58.18:329][961]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-18.58.18:329][961]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-18.58.18:416][970]Job is a success!
+[2014.10.19-18.58.18:486][971]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.19-18.58.18:505][971]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.19-18.58.18:529][971]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.10.19-18.58.18:545][971]Lightmass on RUSS-DESKTOP: 1.28 sec total, 139 ms importing, 4 ms setup, 508 ms photons, 624 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.37 sec total, 1.04 sec processing.
+[2014.10.19-18.58.18:572][971]LogStaticLightingSystem:Warning: Illumination: 6.21 sec (60 ms encoding lightmaps)
+[2014.10.19-18.58.18:572][971]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.58.18:572][971]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.58.18:952][972]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-18.58.18:952][972]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:58:18 AM
+[2014.10.19-18.58.19:057][972]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.201ms to complete.
+[2014.10.19-18.58.33:913][244]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-18.58.33:913][244]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-18.58.33:979][244]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2014.10.19-18.58.33:980][244]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 10:58:33 AM)
+[2014.10.19-18.58.33:982][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002451s)
+[2014.10.19-18.58.33:983][244]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2014.10.19-18.58.33:983][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003141s)
+[2014.10.19-18.58.34:016][244]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-18.58.34:018][244]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-18.58.34:019][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-14.58.34
+[2014.10.19-18.58.34:019][244]LogWorld: Bringing up level for play took: 0.000995
+[2014.10.19-18.58.34:021][244]Cmd: oculusdev on 
+[2014.10.19-18.58.34:021][244]Command not recognized: oculusdev on 
+[2014.10.19-18.58.34:021][244]Cmd: hmdwarp 1=1 
+[2014.10.19-18.58.34:021][244]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-18.58.34:021][244]Cmd: hmdwarp s=1.3 
+[2014.10.19-18.58.34:021][244]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-18.58.34:021][244]Cmd: hmd sp 130.0
+[2014.10.19-18.58.34:021][244]Command not recognized:  hmd sp 130.0
+[2014.10.19-18.58.34:021][244]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-18.58.34:023][244]LogClass: Myo Hub Initialized.
+[2014.10.19-18.58.34:023][244]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-18.58.34:023][244]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.065
+[2014.10.19-18.58.38:707][713]LogClass: Myo Hub Shutdown.
+[2014.10.19-18.58.38:767][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A4F02840
+[2014.10.19-18.59.07:117][285]MapCheck: New page: Map Check
+[2014.10.19-18.59.07:166][285]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-18.59.07:166][285]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-18.59.07:248][285]LightingResults: New page: Lighting Build - Oct 19, 2014, 10:59:07 AM
+[2014.10.19-18.59.11:825][285]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-18.59.11:832][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-18.59.11:832][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-18.59.11:832][285]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-18.59.11:832][285]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-18.59.11:832][285]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-18.59.11:879][285]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-18.59.12:879][341]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-18.59.13:244][371]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-18.59.13:244][371]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-18.59.13:319][379]Job is a success!
+[2014.10.19-18.59.13:387][380]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.19-18.59.13:404][380]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.19-18.59.13:435][380]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.10.19-18.59.13:447][380]Lightmass on RUSS-DESKTOP: 1.27 sec total, 136 ms importing, 4 ms setup, 509 ms photons, 609 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.21 sec total, 1.03 sec processing.
+[2014.10.19-18.59.13:475][380]LogStaticLightingSystem:Warning: Illumination: 6.20 sec (62 ms encoding lightmaps)
+[2014.10.19-18.59.13:475][380]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-18.59.13:475][380]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2014.10.19-18.59.13:881][381]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-18.59.13:881][381]MapCheck: New page: TheFunHouse - Oct 19, 2014, 10:59:13 AM
+[2014.10.19-18.59.13:982][381]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.255ms to complete.
+[2014.10.19-19.00.26:443][922]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.00.26:443][922]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.00.26:511][922]LogPlayLevel: PIE:  Blueprint regeneration took 68 ms (1 blueprints)
+[2014.10.19-19.00.26:511][922]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:00:26 AM)
+[2014.10.19-19.00.26:514][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002548s)
+[2014.10.19-19.00.26:515][922]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2014.10.19-19.00.26:515][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003300s)
+[2014.10.19-19.00.26:548][922]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.00.26:550][922]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.00.26:551][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.00.26
+[2014.10.19-19.00.26:551][922]LogWorld: Bringing up level for play took: 0.001069
+[2014.10.19-19.00.26:553][922]Cmd: oculusdev on 
+[2014.10.19-19.00.26:554][922]Command not recognized: oculusdev on 
+[2014.10.19-19.00.26:554][922]Cmd: hmdwarp 1=1 
+[2014.10.19-19.00.26:554][922]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.00.26:554][922]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.00.26:554][922]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.00.26:554][922]Cmd: hmd sp 130.0
+[2014.10.19-19.00.26:554][922]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.00.26:554][922]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.00.26:555][922]LogClass: Myo Hub Initialized.
+[2014.10.19-19.00.26:555][922]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.00.26:556][922]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.403
+[2014.10.19-19.00.32:447][518]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.00.32:507][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79E160A40
+[2014.10.19-19.00.34:550][659]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.19-19.00.36:040][784]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.19-19.00.39:565][ 75]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.00.39:565][ 75]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.00.39:636][ 75]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2014.10.19-19.00.39:636][ 75]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:00:39 AM)
+[2014.10.19-19.00.39:639][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002460s)
+[2014.10.19-19.00.39:640][ 75]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2014.10.19-19.00.39:640][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003214s)
+[2014.10.19-19.00.39:674][ 75]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.00.39:676][ 75]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.00.39:677][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.00.39
+[2014.10.19-19.00.39:677][ 75]LogWorld: Bringing up level for play took: 0.001031
+[2014.10.19-19.00.39:679][ 75]Cmd: oculusdev on 
+[2014.10.19-19.00.39:680][ 75]Command not recognized: oculusdev on 
+[2014.10.19-19.00.39:680][ 75]Cmd: hmdwarp 1=1 
+[2014.10.19-19.00.39:680][ 75]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.00.39:680][ 75]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.00.39:680][ 75]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.00.39:680][ 75]Cmd: hmd sp 130.0
+[2014.10.19-19.00.39:680][ 75]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.00.39:680][ 75]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.00.39:681][ 75]LogClass: Myo Hub Initialized.
+[2014.10.19-19.00.39:681][ 75]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.00.39:682][ 75]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.723
+[2014.10.19-19.00.50:260][158]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.00.50:312][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A4F4E480
+[2014.10.19-19.01.14:734][377]MapCheck: New page: Map Check
+[2014.10.19-19.01.14:752][377]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-19.01.14:753][377]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-19.01.14:850][377]LightingResults: New page: Lighting Build - Oct 19, 2014, 11:01:14 AM
+[2014.10.19-19.01.19:435][377]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-19.01.19:442][377]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-19.01.19:442][377]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-19.01.19:442][377]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-19.01.19:442][377]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-19.01.19:442][377]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-19.01.19:491][377]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-19.01.20:502][424]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-19.01.20:854][453]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-19.01.20:854][453]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-19.01.20:961][464]Job is a success!
+[2014.10.19-19.01.21:022][465]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.19-19.01.21:041][465]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.19-19.01.21:071][465]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.10.19-19.01.21:083][465]Lightmass on RUSS-DESKTOP: 1.30 sec total, 139 ms importing, 4 ms setup, 510 ms photons, 630 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.45 sec total, 1.04 sec processing.
+[2014.10.19-19.01.21:109][465]LogStaticLightingSystem:Warning: Illumination: 6.24 sec (62 ms encoding lightmaps)
+[2014.10.19-19.01.21:109][465]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-19.01.21:109][465]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.10.19-19.01.21:492][466]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-19.01.21:492][466]MapCheck: New page: TheFunHouse - Oct 19, 2014, 11:01:21 AM
+[2014.10.19-19.01.21:593][466]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.445ms to complete.
+[2014.10.19-19.01.24:100][681]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.01.24:100][681]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.01.24:166][681]LogPlayLevel: PIE:  Blueprint regeneration took 65 ms (1 blueprints)
+[2014.10.19-19.01.24:166][681]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:01:24 AM)
+[2014.10.19-19.01.24:169][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2014.10.19-19.01.24:169][681]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2014.10.19-19.01.24:169][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003188s)
+[2014.10.19-19.01.24:202][681]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.01.24:204][681]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.01.24:205][681]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.01.24
+[2014.10.19-19.01.24:205][681]LogWorld: Bringing up level for play took: 0.001073
+[2014.10.19-19.01.24:208][681]Cmd: oculusdev on 
+[2014.10.19-19.01.24:208][681]Command not recognized: oculusdev on 
+[2014.10.19-19.01.24:208][681]Cmd: hmdwarp 1=1 
+[2014.10.19-19.01.24:208][681]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.01.24:208][681]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.01.24:208][681]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.01.24:208][681]Cmd: hmd sp 130.0
+[2014.10.19-19.01.24:208][681]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.01.24:208][681]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.01.24:209][681]LogClass: Myo Hub Initialized.
+[2014.10.19-19.01.24:209][681]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.01.24:210][681]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.748
+[2014.10.19-19.01.33:010][567]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.01.33:063][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A4F4C220
+[2014.10.19-19.01.38:533][ 31]MapCheck: New page: Map Check
+[2014.10.19-19.01.38:568][ 31]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-19.01.38:568][ 31]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-19.01.38:670][ 31]LightingResults: New page: Lighting Build - Oct 19, 2014, 11:01:38 AM
+[2014.10.19-19.01.43:233][ 31]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-19.01.43:241][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-19.01.43:241][ 31]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-19.01.43:241][ 31]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-19.01.43:241][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-19.01.43:241][ 31]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-19.01.43:288][ 31]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-19.01.44:277][ 85]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-19.01.44:626][114]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-19.01.44:627][114]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-19.01.44:712][123]Job is a success!
+[2014.10.19-19.01.44:773][124]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.19-19.01.44:793][124]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.19-19.01.44:821][124]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.10.19-19.01.44:834][124]Lightmass on RUSS-DESKTOP: 1.26 sec total, 136 ms importing, 4 ms setup, 510 ms photons, 598 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 6.09 sec total, 1.04 sec processing.
+[2014.10.19-19.01.44:863][124]LogStaticLightingSystem:Warning: Illumination: 6.17 sec (61 ms encoding lightmaps)
+[2014.10.19-19.01.44:863][124]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-19.01.44:863][124]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2014.10.19-19.01.45:290][125]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-19.01.45:290][125]MapCheck: New page: TheFunHouse - Oct 19, 2014, 11:01:45 AM
+[2014.10.19-19.01.45:392][125]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.386ms to complete.
+[2014.10.19-19.01.49:184][457]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.01.49:184][457]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.01.49:251][457]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2014.10.19-19.01.49:251][457]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:01:49 AM)
+[2014.10.19-19.01.49:254][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002491s)
+[2014.10.19-19.01.49:255][457]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2014.10.19-19.01.49:255][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003166s)
+[2014.10.19-19.01.49:285][457]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.01.49:287][457]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.01.49:288][457]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.01.49
+[2014.10.19-19.01.49:288][457]LogWorld: Bringing up level for play took: 0.001012
+[2014.10.19-19.01.49:290][457]Cmd: oculusdev on 
+[2014.10.19-19.01.49:290][457]Command not recognized: oculusdev on 
+[2014.10.19-19.01.49:290][457]Cmd: hmdwarp 1=1 
+[2014.10.19-19.01.49:290][457]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.01.49:290][457]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.01.49:290][457]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.01.49:290][457]Cmd: hmd sp 130.0
+[2014.10.19-19.01.49:290][457]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.01.49:290][457]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.01.49:292][457]LogClass: Myo Hub Initialized.
+[2014.10.19-19.01.49:292][457]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.01.49:292][457]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.334
+[2014.10.19-19.02.03:620][875]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.02.03:678][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AF520CC0
+[2014.10.19-19.02.45:668][644]MapCheck: New page: Map Check
+[2014.10.19-19.02.45:687][644]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-19.02.45:687][644]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-19.02.45:780][644]LightingResults: New page: Lighting Build - Oct 19, 2014, 11:02:45 AM
+[2014.10.19-19.02.50:347][644]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-19.02.50:355][644]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-19.02.50:355][644]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-19.02.50:355][644]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-19.02.50:355][644]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-19.02.50:355][644]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-19.02.50:402][644]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-19.02.51:407][691]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-19.02.51:766][715]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-19.02.51:767][715]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-19.02.51:810][718]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.02.51:810][718]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.02.51:876][718]Job is a success!
+[2014.10.19-19.02.51:877][718]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2014.10.19-19.02.51:877][718]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:02:51 AM)
+[2014.10.19-19.02.51:880][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002507s)
+[2014.10.19-19.02.51:880][718]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2014.10.19-19.02.51:880][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003218s)
+[2014.10.19-19.02.51:908][718]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.02.51:910][718]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.02.51:911][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.02.51
+[2014.10.19-19.02.51:911][718]LogWorld: Bringing up level for play took: 0.001012
+[2014.10.19-19.02.51:913][718]Cmd: oculusdev on 
+[2014.10.19-19.02.51:913][718]Command not recognized: oculusdev on 
+[2014.10.19-19.02.51:913][718]Cmd: hmdwarp 1=1 
+[2014.10.19-19.02.51:913][718]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.02.51:913][718]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.02.51:913][718]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.02.51:914][718]Cmd: hmd sp 130.0
+[2014.10.19-19.02.51:914][718]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.02.51:914][718]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.02.51:915][718]LogClass: Myo Hub Initialized.
+[2014.10.19-19.02.51:915][718]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.02.51:916][718]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.957
+[2014.10.19-19.03.17:463][139]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.03.17:523][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79D930900
+[2014.10.19-19.03.39:509][ 17]BlueprintLog: New page: Compile TheFunHouse
+[2014.10.19-19.03.39:595][ 17]BlueprintEditorCompileResults: Info [0815.01] Compile of TheFunHouse successful! [in 5 ms]
+[2014.10.19-19.03.41:391][147]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.03.41:399][147]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.03.41:477][147]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2014.10.19-19.03.41:478][147]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:03:41 AM)
+[2014.10.19-19.03.41:480][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002555s)
+[2014.10.19-19.03.41:481][147]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2014.10.19-19.03.41:481][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003261s)
+[2014.10.19-19.03.41:510][147]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.03.41:512][147]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.03.41:513][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.03.41
+[2014.10.19-19.03.41:513][147]LogWorld: Bringing up level for play took: 0.001016
+[2014.10.19-19.03.41:515][147]Cmd: oculusdev on 
+[2014.10.19-19.03.41:515][147]Command not recognized: oculusdev on 
+[2014.10.19-19.03.41:515][147]Cmd: hmdwarp 1=1 
+[2014.10.19-19.03.41:515][147]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.03.41:516][147]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.03.41:516][147]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.03.41:516][147]Cmd: hmd sp 130.0
+[2014.10.19-19.03.41:516][147]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.03.41:516][147]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.03.41:517][147]LogClass: Myo Hub Initialized.
+[2014.10.19-19.03.41:517][147]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.03.41:518][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.56
+[2014.10.19-19.03.45:589][491]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.03.45:660][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D48956C0
+[2014.10.19-19.03.54:196][350]BlueprintLog: New page: Compile TheFunHouse
+[2014.10.19-19.03.54:285][350]BlueprintEditorCompileResults: Info [0829.70] Compile of TheFunHouse successful! [in 5 ms]
+[2014.10.19-19.03.55:917][474]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.03.55:925][474]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.03.56:003][474]LogPlayLevel: PIE:  Blueprint regeneration took 85 ms (1 blueprints)
+[2014.10.19-19.03.56:003][474]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:03:56 AM)
+[2014.10.19-19.03.56:006][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002911s)
+[2014.10.19-19.03.56:007][474]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2014.10.19-19.03.56:007][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003714s)
+[2014.10.19-19.03.56:036][474]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.03.56:038][474]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.03.56:039][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.03.56
+[2014.10.19-19.03.56:040][474]LogWorld: Bringing up level for play took: 0.001322
+[2014.10.19-19.03.56:042][474]Cmd: oculusdev on 
+[2014.10.19-19.03.56:042][474]Command not recognized: oculusdev on 
+[2014.10.19-19.03.56:042][474]Cmd: hmdwarp 1=1 
+[2014.10.19-19.03.56:042][474]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.03.56:042][474]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.03.56:042][474]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.03.56:042][474]Cmd: hmd sp 130.0
+[2014.10.19-19.03.56:043][474]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.03.56:043][474]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.03.56:044][474]LogClass: Myo Hub Initialized.
+[2014.10.19-19.03.56:044][474]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.03.56:045][474]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.086
+[2014.10.19-19.03.58:741][708]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.03.58:814][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D48968E0
+[2014.10.19-19.04.06:236][460]BlueprintLog: New page: Compile TheFunHouse
+[2014.10.19-19.04.06:317][460]BlueprintEditorCompileResults: Info [0841.73] Compile of TheFunHouse successful! [in 4 ms]
+[2014.10.19-19.04.07:885][563]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.04.07:894][563]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.04.07:970][563]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.19-19.04.07:970][563]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:04:07 AM)
+[2014.10.19-19.04.07:974][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003639s)
+[2014.10.19-19.04.07:975][563]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2014.10.19-19.04.07:975][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.004642s)
+[2014.10.19-19.04.08:003][563]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.04.08:005][563]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.04.08:006][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.04.08
+[2014.10.19-19.04.08:007][563]LogWorld: Bringing up level for play took: 0.001252
+[2014.10.19-19.04.08:009][563]Cmd: oculusdev on 
+[2014.10.19-19.04.08:009][563]Command not recognized: oculusdev on 
+[2014.10.19-19.04.08:009][563]Cmd: hmdwarp 1=1 
+[2014.10.19-19.04.08:009][563]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.04.08:009][563]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.04.08:009][563]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.04.08:009][563]Cmd: hmd sp 130.0
+[2014.10.19-19.04.08:009][563]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.04.08:009][563]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.04.08:011][563]LogClass: Myo Hub Initialized.
+[2014.10.19-19.04.08:011][563]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.04.08:012][563]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.053
+[2014.10.19-19.04.34:141][851]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.04.34:212][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D48956C0
+[2014.10.19-19.04.39:977][404]BlueprintLog: New page: Compile TheFunHouse
+[2014.10.19-19.04.40:057][404]BlueprintEditorCompileResults: Info [0875.48] Compile of TheFunHouse successful! [in 5 ms]
+[2014.10.19-19.04.43:259][685]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.04.43:266][685]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.04.43:344][685]LogPlayLevel: PIE:  Blueprint regeneration took 85 ms (1 blueprints)
+[2014.10.19-19.04.43:344][685]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:04:43 AM)
+[2014.10.19-19.04.43:347][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002699s)
+[2014.10.19-19.04.43:347][685]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2014.10.19-19.04.43:348][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003440s)
+[2014.10.19-19.04.43:377][685]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.04.43:379][685]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.04.43:380][685]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.04.43
+[2014.10.19-19.04.43:380][685]LogWorld: Bringing up level for play took: 0.001022
+[2014.10.19-19.04.43:383][685]Cmd: oculusdev on 
+[2014.10.19-19.04.43:383][685]Command not recognized: oculusdev on 
+[2014.10.19-19.04.43:383][685]Cmd: hmdwarp 1=1 
+[2014.10.19-19.04.43:383][685]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.04.43:383][685]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.04.43:383][685]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.04.43:383][685]Cmd: hmd sp 130.0
+[2014.10.19-19.04.43:383][685]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.04.43:383][685]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.04.43:384][685]LogClass: Myo Hub Initialized.
+[2014.10.19-19.04.43:384][685]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.04.43:385][685]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.426
+[2014.10.19-19.04.52:969][501]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.04.53:039][501]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DA235E40
+[2014.10.19-19.04.57:642][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheFunHouse" FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-19.04.57:757][836]LogSavePackage: Save=65.091133ms
+[2014.10.19-19.04.57:757][836]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/TheFunHouse0A7A6D9D4E557CBA40D7C9A148687B7C.tmp' to '../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap'
+[2014.10.19-19.04.57:789][836]LogFileHelpers: Saving map 'TheFunHouse' took 0.250
+[2014.10.19-19.04.57:810][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Clear" FILE="../../../../../../git/FunWithVR/Content/Materials/M_Clear.uasset" SILENT=true
+[2014.10.19-19.04.58:182][836]LogSavePackage: Save=340.383209ms
+[2014.10.19-19.04.58:182][836]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/M_Clear7241CD2343E37FC2795505A481EFE14F.tmp' to '../../../../../../git/FunWithVR/Content/Materials/M_Clear.uasset'
+[2014.10.19-19.05.21:005][ 92]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-19.05.21:020][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-19.05.21:077][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-19.05.21:077][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.19-19.05.21:077][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.19-19.05.21:077][ 92]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.19-19.05.21:080][ 92]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-19.05.21:136][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling.
+[2014.10.19-19.05.23:677][264]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
+[2014.10.19-19.05.23:677][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2014.10.19-19.05.23:677][264]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2014.10.19-19.05.23:677][264]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.05.23:677][264]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.19-19.06.24:910][537]LogRenderer:Warning: Reallocating scene render targets to support 1528x952.
+[2014.10.19-19.06.27:553][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.19-19.06.27:553][683]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes/pedestal'
+[2014.10.19-19.06.32:938][188]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.19-19.06.32:938][188]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/pedestal'
+[2014.10.19-19.06.34:513][292]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.06.34:522][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-19.06.34:574][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-19.06.34:574][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.19-19.06.34:574][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.19-19.06.34:574][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.19-19.06.34:577][292]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.06.34:609][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling.
+[2014.10.19-19.06.34:611][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_120, compiling.
+[2014.10.19-19.06.37:031][414]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 5 instructions
+[2014.10.19-19.06.37:031][414]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 5 instructions
+[2014.10.19-19.06.37:031][414]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.06.37:032][414]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-19.06.43:553][933]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.06.43:585][933]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_120, compiling.
+[2014.10.19-19.06.45:001][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2014.10.19-19.06.45:001][ 15]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2014.10.19-19.06.45:001][ 15]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.06.45:001][ 15]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.19-19.06.48:094][236]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.06.49:360][296]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 5 instructions
+[2014.10.19-19.06.49:360][296]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 5 instructions
+[2014.10.19-19.06.49:360][296]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.06.49:360][296]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-19.07.04:484][546]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.07.04:496][546]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.07.05:801][622]MaterialEditorStats: Info Base pass shader with static lighting: 5 instructions
+[2014.10.19-19.07.05:801][622]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 5 instructions
+[2014.10.19-19.07.05:801][622]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 5 instructions
+[2014.10.19-19.07.05:801][622]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.07.05:801][622]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-19.07.10:267][972]LogMaterialEditor: Applying material M_GlowGlass
+[2014.10.19-19.07.11:607][972]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-19.07.11:827][972]LogMaterial: Missing cached shader map for material M_GlowGlass, compiling.
+[2014.10.19-19.07.11:868][972]LogMaterial: Missing cached shader map for material M_GlowGlass, compiling.
+[2014.10.19-19.07.11:884][972]LogMaterial: 0.002312 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-19.07.13:927][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheFunHouse" FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-19.07.14:096][ 50]LogSavePackage: Save=106.904251ms
+[2014.10.19-19.07.14:097][ 50]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/TheFunHouse75F27BC544E682744992F1AC83FC5B2B.tmp' to '../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap'
+[2014.10.19-19.07.14:144][ 50]LogFileHelpers: Saving map 'TheFunHouse' took 0.352
+[2014.10.19-19.07.15:958][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/pedestal/M_GlowGlass" FILE="../../../../../../git/FunWithVR/Content/Materials/pedestal/M_GlowGlass.uasset" SILENT=true
+[2014.10.19-19.07.16:169][ 50]LogSavePackage: Save=184.278030ms
+[2014.10.19-19.07.16:169][ 50]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/M_GlowGlass188F768E42796582992D039D757A3C8E.tmp' to '../../../../../../git/FunWithVR/Content/Materials/pedestal/M_GlowGlass.uasset'
+[2014.10.19-19.07.16:184][ 50]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2014.10.19-19.07.16:184][ 50]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2014.10.19-19.07.16:184][ 50]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 79 instructions
+[2014.10.19-19.07.16:184][ 50]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-19.07.16:184][ 50]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.19-19.07.18:089][193]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.07.18:093][193]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.07.18:174][193]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.19-19.07.18:174][193]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:07:18 AM)
+[2014.10.19-19.07.18:177][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002844s)
+[2014.10.19-19.07.18:178][193]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2014.10.19-19.07.18:178][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003585s)
+[2014.10.19-19.07.18:205][193]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.07.18:207][193]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.07.18:208][193]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.07.18
+[2014.10.19-19.07.18:209][193]LogWorld: Bringing up level for play took: 0.001276
+[2014.10.19-19.07.18:211][193]Cmd: oculusdev on 
+[2014.10.19-19.07.18:212][193]Command not recognized: oculusdev on 
+[2014.10.19-19.07.18:212][193]Cmd: hmdwarp 1=1 
+[2014.10.19-19.07.18:212][193]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.07.18:212][193]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.07.18:212][193]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.07.18:212][193]Cmd: hmd sp 130.0
+[2014.10.19-19.07.18:212][193]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.07.18:212][193]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.07.18:213][193]LogClass: Myo Hub Initialized.
+[2014.10.19-19.07.18:213][193]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.07.18:214][193]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.745
+[2014.10.19-19.07.43:414][126]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.07.43:502][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DA235F80
+[2014.10.19-19.07.46:095][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_shell)
+[2014.10.19-19.17.39:629][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheFunHouse' took 0.018
+[2014.10.19-19.46.12:021][309]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-19.47.42:820][ 62]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.47.42:824][ 62]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.47.42:906][ 62]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2014.10.19-19.47.42:906][ 62]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:47:42 AM)
+[2014.10.19-19.47.42:909][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002799s)
+[2014.10.19-19.47.42:910][ 62]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2014.10.19-19.47.42:910][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003718s)
+[2014.10.19-19.47.42:940][ 62]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.47.42:942][ 62]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.47.42:943][ 62]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.47.42
+[2014.10.19-19.47.42:943][ 62]LogWorld: Bringing up level for play took: 0.001101
+[2014.10.19-19.47.42:946][ 62]Cmd: oculusdev on 
+[2014.10.19-19.47.42:946][ 62]Command not recognized: oculusdev on 
+[2014.10.19-19.47.42:946][ 62]Cmd: hmdwarp 1=1 
+[2014.10.19-19.47.42:946][ 62]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.47.42:946][ 62]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.47.42:946][ 62]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.47.42:946][ 62]Cmd: hmd sp 130.0
+[2014.10.19-19.47.42:946][ 62]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.47.42:946][ 62]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.47.42:947][ 62]LogClass: Myo Hub Initialized.
+[2014.10.19-19.47.42:947][ 62]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.47.42:948][ 62]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.01
+[2014.10.19-19.47.44:574][194]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.47.44:687][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DD9FD620
+[2014.10.19-19.47.47:653][408]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.47.47:658][408]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.47.47:739][408]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2014.10.19-19.47.47:739][408]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:47:47 AM)
+[2014.10.19-19.47.47:742][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2014.10.19-19.47.47:742][408]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2014.10.19-19.47.47:743][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003341s)
+[2014.10.19-19.47.47:776][408]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.47.47:778][408]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.47.47:779][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.47.47
+[2014.10.19-19.47.47:779][408]LogWorld: Bringing up level for play took: 0.001014
+[2014.10.19-19.47.47:781][408]Cmd: oculusdev on 
+[2014.10.19-19.47.47:781][408]Command not recognized: oculusdev on 
+[2014.10.19-19.47.47:781][408]Cmd: hmdwarp 1=1 
+[2014.10.19-19.47.47:781][408]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.47.47:781][408]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.47.47:782][408]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.47.47:782][408]Cmd: hmd sp 130.0
+[2014.10.19-19.47.47:782][408]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.47.47:782][408]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.47.47:783][408]LogClass: Myo Hub Initialized.
+[2014.10.19-19.47.47:783][408]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.47.47:784][408]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.825
+[2014.10.19-19.47.52:847][835]Cmd: stat fps
+[2014.10.19-19.48.34:477][356]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.48.34:607][356]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DD9FD8A0
+[2014.10.19-19.48.41:714][830]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-19.48.41:730][830]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2014.10.19-19.48.44:855][ 36]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.19-19.49.10:261][711]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.49.10:266][711]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.49.10:355][711]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2014.10.19-19.49.10:355][711]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:49:10 AM)
+[2014.10.19-19.49.10:358][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002532s)
+[2014.10.19-19.49.10:359][711]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2014.10.19-19.49.10:359][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003264s)
+[2014.10.19-19.49.10:391][711]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.49.10:393][711]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.49.10:394][711]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.49.10
+[2014.10.19-19.49.10:394][711]LogWorld: Bringing up level for play took: 0.001166
+[2014.10.19-19.49.10:396][711]Cmd: oculusdev on 
+[2014.10.19-19.49.10:396][711]Command not recognized: oculusdev on 
+[2014.10.19-19.49.10:396][711]Cmd: hmdwarp 1=1 
+[2014.10.19-19.49.10:396][711]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.49.10:396][711]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.49.10:396][711]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.49.10:396][711]Cmd: hmd sp 130.0
+[2014.10.19-19.49.10:397][711]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.49.10:397][711]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.49.10:398][711]LogClass: Myo Hub Initialized.
+[2014.10.19-19.49.10:398][711]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.49.10:399][711]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.56
+[2014.10.19-19.49.14:536][ 61]Cmd: stat fps
+[2014.10.19-19.49.18:577][415]Cmd: stat fps
+[2014.10.19-19.49.34:043][853]Cmd: SELECT NONE
+[2014.10.19-19.49.34:956][926]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.49.35:094][926]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DEDCF060
+[2014.10.19-19.49.51:597][ 57]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.19-19.49.51:624][ 57]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.19-19.49.51:648][ 57]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.10.19-19.49.51:672][ 57]Lightmass on RUSS-DESKTOP: 47:00 min total, 143 ms importing, 5 ms setup, 510 ms photons, 47:00 min processing, 0 ms extra exporting [5/5 mappings]. Threads: 8:37:02 hours total, 1.05 sec processing.
+[2014.10.19-19.49.51:692][ 57]LogStaticLightingSystem:Warning: Illumination: 6.28 sec (60 ms encoding lightmaps)
+[2014.10.19-19.49.51:692][ 57]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-19.49.51:692][ 57]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.10.19-19.49.52:474][ 58]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-19.49.52:475][ 58]MapCheck: New page: TheFunHouse - Oct 19, 2014, 11:49:52 AM
+[2014.10.19-19.49.52:584][ 58]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.129ms to complete.
+[2014.10.19-19.54.59:423][580]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes/MainRoom'
+[2014.10.19-19.55.01:475][746]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes/pedestal'
+[2014.10.19-19.55.02:241][814]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes/MainRoom'
+[2014.10.19-19.55.05:766][ 63]LogEditorFactories: Performing atomic reimport of [D:/git/FunWithVR/AssetBases/export/main_room/wall_part1.FBX]
+[2014.10.19-19.55.05:773][ 63]LogFbx: Loading FBX Scene from D:/git/FunWithVR/AssetBases/export/main_room/wall_part1.FBX
+[2014.10.19-19.55.05:786][ 63]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.19-19.55.05:809][ 63]LogFbx:Warning: Triangulating static mesh Object002
+[2014.10.19-19.55.10:316][ 63]LogFbx: == Initial material list:
+[2014.10.19-19.55.10:316][ 63]LogFbx: 0: paint_green
+[2014.10.19-19.55.10:317][ 63]LogFbx: == After sorting:
+[2014.10.19-19.55.10:317][ 63]LogFbx: 0: paint_green
+[2014.10.19-19.55.10:317][ 63]LogFbx: == Mapping table:
+[2014.10.19-19.55.10:317][ 63]LogFbx:   sort 0 -> 0
+[2014.10.19-19.55.10:388][ 63]LogStaticMesh: Building static mesh wall_part1...
+[2014.10.19-19.55.10:593][ 63]LogLayoutUV:Display: FindCharts: 20 ms
+[2014.10.19-19.55.10:610][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:610][ 63]LogLayoutUV:Display:   Rasterize: 52335
+[2014.10.19-19.55.10:610][ 63]LogLayoutUV:Display:   Find: 7
+[2014.10.19-19.55.10:627][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:627][ 63]LogLayoutUV:Display:   Rasterize: 52389
+[2014.10.19-19.55.10:627][ 63]LogLayoutUV:Display:   Find: 5
+[2014.10.19-19.55.10:643][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:643][ 63]LogLayoutUV:Display:   Rasterize: 52283
+[2014.10.19-19.55.10:643][ 63]LogLayoutUV:Display:   Find: 8
+[2014.10.19-19.55.10:660][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:660][ 63]LogLayoutUV:Display:   Rasterize: 52322
+[2014.10.19-19.55.10:660][ 63]LogLayoutUV:Display:   Find: 5
+[2014.10.19-19.55.10:677][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:677][ 63]LogLayoutUV:Display:   Rasterize: 52391
+[2014.10.19-19.55.10:677][ 63]LogLayoutUV:Display:   Find: 9
+[2014.10.19-19.55.10:694][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:694][ 63]LogLayoutUV:Display:   Rasterize: 52361
+[2014.10.19-19.55.10:694][ 63]LogLayoutUV:Display:   Find: 8
+[2014.10.19-19.55.10:711][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:711][ 63]LogLayoutUV:Display:   Rasterize: 52308
+[2014.10.19-19.55.10:711][ 63]LogLayoutUV:Display:   Find: 7
+[2014.10.19-19.55.10:727][ 63]LogLayoutUV:Display: PackCharts: 16 ms
+[2014.10.19-19.55.10:727][ 63]LogLayoutUV:Display:   Rasterize: 52325
+[2014.10.19-19.55.10:727][ 63]LogLayoutUV:Display:   Find: 7
+[2014.10.19-19.55.10:848][ 63]LogStaticMesh: Built static mesh [461.070374ms] /Game/Assets/Meshes/MainRoom/wall_part1.wall_part1
+[2014.10.19-19.55.11:000][ 63]LogEditorFactories: -- imported successfully
+[2014.10.19-19.55.17:435][581]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.55.17:440][581]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.55.17:517][581]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.10.19-19.55.17:517][581]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:55:17 AM)
+[2014.10.19-19.55.17:520][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002534s)
+[2014.10.19-19.55.17:521][581]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2014.10.19-19.55.17:521][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003307s)
+[2014.10.19-19.55.17:548][581]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.55.17:550][581]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.55.17:551][581]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.55.17
+[2014.10.19-19.55.17:551][581]LogWorld: Bringing up level for play took: 0.001052
+[2014.10.19-19.55.17:554][581]Cmd: oculusdev on 
+[2014.10.19-19.55.17:554][581]Command not recognized: oculusdev on 
+[2014.10.19-19.55.17:554][581]Cmd: hmdwarp 1=1 
+[2014.10.19-19.55.17:554][581]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.55.17:554][581]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.55.17:554][581]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.55.17:554][581]Cmd: hmd sp 130.0
+[2014.10.19-19.55.17:554][581]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.55.17:554][581]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.55.17:555][581]LogClass: Myo Hub Initialized.
+[2014.10.19-19.55.17:555][581]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.55.17:556][581]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.597
+[2014.10.19-19.55.21:366][889]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.55.21:528][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DF7E1440
+[2014.10.19-19.55.36:646][110]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.55.36:650][110]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.55.36:728][110]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.10.19-19.55.36:728][110]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:55:36 AM)
+[2014.10.19-19.55.36:731][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002486s)
+[2014.10.19-19.55.36:731][110]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2014.10.19-19.55.36:732][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003170s)
+[2014.10.19-19.55.36:762][110]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.55.36:764][110]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.55.36:765][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.55.36
+[2014.10.19-19.55.36:765][110]LogWorld: Bringing up level for play took: 0.001035
+[2014.10.19-19.55.36:767][110]Cmd: oculusdev on 
+[2014.10.19-19.55.36:767][110]Command not recognized: oculusdev on 
+[2014.10.19-19.55.36:767][110]Cmd: hmdwarp 1=1 
+[2014.10.19-19.55.36:768][110]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.55.36:768][110]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.55.36:768][110]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.55.36:768][110]Cmd: hmd sp 130.0
+[2014.10.19-19.55.36:768][110]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.55.36:768][110]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.55.36:769][110]LogClass: Myo Hub Initialized.
+[2014.10.19-19.55.36:769][110]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.55.36:770][110]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.188
+[2014.10.19-19.55.42:941][588]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.55.43:109][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7E024DDA0
+[2014.10.19-19.55.44:509][692]MapCheck: New page: Map Check
+[2014.10.19-19.55.44:538][692]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-19.55.44:538][692]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-19.55.44:660][692]LightingResults: New page: Lighting Build - Oct 19, 2014, 11:55:44 AM
+[2014.10.19-19.55.49:247][692]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-19.55.49:253][692]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-19.55.49:253][692]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-19.55.49:253][692]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-19.55.49:253][692]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-19.55.49:253][692]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-19.55.49:371][692]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-19.55.50:413][739]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-19.55.50:800][765]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-19.55.50:800][765]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-19.55.50:983][780]Job is a success!
+[2014.10.19-19.55.51:059][781]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.19-19.55.51:081][781]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.19-19.55.51:109][781]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.10.19-19.55.51:123][781]Lightmass on RUSS-DESKTOP: 1.43 sec total, 160 ms importing, 5 ms setup, 509 ms photons, 749 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 7.75 sec total, 1.46 sec processing.
+[2014.10.19-19.55.51:152][781]LogStaticLightingSystem:Warning: Illumination: 6.46 sec (63 ms encoding lightmaps)
+[2014.10.19-19.55.51:152][781]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-19.55.51:152][781]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 7 textures
+[2014.10.19-19.55.52:305][782]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-19.55.52:305][782]MapCheck: New page: TheFunHouse - Oct 19, 2014, 11:55:52 AM
+[2014.10.19-19.55.52:459][782]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.398ms to complete.
+[2014.10.19-19.55.56:170][ 64]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.55.56:174][ 64]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.55.56:251][ 64]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2014.10.19-19.55.56:251][ 64]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:55:56 AM)
+[2014.10.19-19.55.56:253][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002461s)
+[2014.10.19-19.55.56:254][ 64]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2014.10.19-19.55.56:254][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003162s)
+[2014.10.19-19.55.56:287][ 64]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.55.56:289][ 64]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.55.56:290][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.55.56
+[2014.10.19-19.55.56:290][ 64]LogWorld: Bringing up level for play took: 0.001036
+[2014.10.19-19.55.56:292][ 64]Cmd: oculusdev on 
+[2014.10.19-19.55.56:293][ 64]Command not recognized: oculusdev on 
+[2014.10.19-19.55.56:293][ 64]Cmd: hmdwarp 1=1 
+[2014.10.19-19.55.56:293][ 64]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.55.56:293][ 64]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.55.56:293][ 64]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.55.56:293][ 64]Cmd: hmd sp 130.0
+[2014.10.19-19.55.56:293][ 64]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.55.56:293][ 64]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.55.56:294][ 64]LogClass: Myo Hub Initialized.
+[2014.10.19-19.55.56:294][ 64]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.55.56:295][ 64]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.663
+[2014.10.19-19.56.23:148][190]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.56.23:329][190]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AB86A700
+[2014.10.19-19.57.12:930][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.19-19.57.24:922][544]LogLinker:Warning: Asset '../../../../../../git/FunWithVR/Content/Blueprints/Blueprint_Effect_Smoke.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-19.57.45:487][529]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.19-19.58.01:410][365]LogCascade: Quitting Cascade. FXSystem=0x000000A7DFE2CE00
+[2014.10.19-19.58.54:982][999]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-19.58.54:987][999]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-19.58.55:070][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DFE2CE00
+[2014.10.19-19.58.55:073][999]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2014.10.19-19.58.55:073][999]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 11:58:55 AM)
+[2014.10.19-19.58.55:076][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002520s)
+[2014.10.19-19.58.55:076][999]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2014.10.19-19.58.55:076][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003221s)
+[2014.10.19-19.58.55:144][999]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-19.58.55:146][999]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-19.58.55:147][999]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-15.58.55
+[2014.10.19-19.58.55:147][999]LogWorld: Bringing up level for play took: 0.001062
+[2014.10.19-19.58.55:150][999]Cmd: oculusdev on 
+[2014.10.19-19.58.55:150][999]Command not recognized: oculusdev on 
+[2014.10.19-19.58.55:150][999]Cmd: hmdwarp 1=1 
+[2014.10.19-19.58.55:150][999]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-19.58.55:150][999]Cmd: hmdwarp s=1.3 
+[2014.10.19-19.58.55:150][999]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-19.58.55:150][999]Cmd: hmd sp 130.0
+[2014.10.19-19.58.55:150][999]Command not recognized:  hmd sp 130.0
+[2014.10.19-19.58.55:150][999]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-19.58.55:151][999]LogClass: Myo Hub Initialized.
+[2014.10.19-19.58.55:151][999]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-19.58.55:155][999]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.197
+[2014.10.19-19.58.58:015][181]LogRenderer:Warning: Reallocating scene render targets to support 1920x1032.
+[2014.10.19-19.59.15:481][403]LogClass: Myo Hub Shutdown.
+[2014.10.19-19.59.15:658][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AB86A3E0
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:859][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.54:860][884]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:865][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-19.59.58:866][288]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.19-20.00.12:718][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheFunHouse" FILE="../../../../../../git/FunWithVR/Saved/Autosaves/Game/Maps/TheFunHouse_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.10.19-20.00.12:825][659]LogSavePackage: Save=65.990784ms
+[2014.10.19-20.00.12:825][659]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/TheFunHouse_Auto1A2A3FC9D42557ADBF993C782386448DA.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game/Maps/TheFunHouse_Auto1.umap'
+[2014.10.19-20.00.12:841][659]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TheFunHouse' took 0.162
+[2014.10.19-20.00.12:841][659]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.162
+[2014.10.19-20.00.12:871][659]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/MainRoom/wall_part1] ([1] browsable assets)...
+[2014.10.19-20.00.12:890][659]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/MainRoom/wall_part1.wall_part1]
+[2014.10.19-20.00.12:890][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/MainRoom/wall_part1]
+[2014.10.19-20.00.13:281][659]LogSavePackage: Save=320.909119ms
+[2014.10.19-20.00.13:281][659]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/wall_part1_Auto1B610C10E4C897C34EAF332BC2FCE9A74.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game/Assets/Meshes/MainRoom/wall_part1_Auto1.uasset'
+[2014.10.19-20.00.13:290][659]LogFileHelpers: Auto-saving content packages took 0.449
+[2014.10.19-20.00.14:336][743]EditorErrors: New page: Actor attachment
+[2014.10.19-20.00.18:098][ 31]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.00.18:101][ 31]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.00.18:186][ 31]LogPlayLevel: PIE:  Blueprint regeneration took 87 ms (1 blueprints)
+[2014.10.19-20.00.18:186][ 31]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:00:18 PM)
+[2014.10.19-20.00.18:188][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002573s)
+[2014.10.19-20.00.18:189][ 31]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2014.10.19-20.00.18:189][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003333s)
+[2014.10.19-20.00.18:265][ 31]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.00.18:267][ 31]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.00.18:268][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.00.18
+[2014.10.19-20.00.18:269][ 31]LogWorld: Bringing up level for play took: 0.001700
+[2014.10.19-20.00.18:272][ 31]Cmd: oculusdev on 
+[2014.10.19-20.00.18:272][ 31]Command not recognized: oculusdev on 
+[2014.10.19-20.00.18:272][ 31]Cmd: hmdwarp 1=1 
+[2014.10.19-20.00.18:272][ 31]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.00.18:272][ 31]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.00.18:272][ 31]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.00.18:272][ 31]Cmd: hmd sp 130.0
+[2014.10.19-20.00.18:272][ 31]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.00.18:272][ 31]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.00.18:274][ 31]LogClass: Myo Hub Initialized.
+[2014.10.19-20.00.18:274][ 31]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.00.18:279][ 31]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.679
+[2014.10.19-20.00.29:803][821]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.00.30:020][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7E304D940
+[2014.10.19-20.00.32:271][984]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.00.32:274][984]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.00.32:358][984]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
+[2014.10.19-20.00.32:358][984]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:00:32 PM)
+[2014.10.19-20.00.32:361][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003149s)
+[2014.10.19-20.00.32:362][984]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2014.10.19-20.00.32:362][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003912s)
+[2014.10.19-20.00.32:424][984]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.00.32:426][984]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.00.32:427][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.00.32
+[2014.10.19-20.00.32:428][984]LogWorld: Bringing up level for play took: 0.001357
+[2014.10.19-20.00.32:430][984]Cmd: oculusdev on 
+[2014.10.19-20.00.32:430][984]Command not recognized: oculusdev on 
+[2014.10.19-20.00.32:430][984]Cmd: hmdwarp 1=1 
+[2014.10.19-20.00.32:430][984]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.00.32:430][984]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.00.32:430][984]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.00.32:430][984]Cmd: hmd sp 130.0
+[2014.10.19-20.00.32:430][984]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.00.32:430][984]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.00.32:431][984]LogClass: Myo Hub Initialized.
+[2014.10.19-20.00.32:431][984]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.00.32:436][984]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.522
+[2014.10.19-20.02.39:142][913]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.02.39:373][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7EBB97A60
+[2014.10.19-20.02.40:608][984]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.02.40:612][984]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.02.40:698][984]LogPlayLevel: PIE:  Blueprint regeneration took 89 ms (1 blueprints)
+[2014.10.19-20.02.40:698][984]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:02:40 PM)
+[2014.10.19-20.02.40:701][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2014.10.19-20.02.40:702][984]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2014.10.19-20.02.40:702][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003244s)
+[2014.10.19-20.02.40:756][984]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.02.40:758][984]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.02.40:759][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.02.40
+[2014.10.19-20.02.40:759][984]LogWorld: Bringing up level for play took: 0.001133
+[2014.10.19-20.02.40:761][984]Cmd: oculusdev on 
+[2014.10.19-20.02.40:761][984]Command not recognized: oculusdev on 
+[2014.10.19-20.02.40:761][984]Cmd: hmdwarp 1=1 
+[2014.10.19-20.02.40:761][984]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.02.40:761][984]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.02.40:761][984]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.02.40:761][984]Cmd: hmd sp 130.0
+[2014.10.19-20.02.40:762][984]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.02.40:762][984]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.02.40:763][984]LogClass: Myo Hub Initialized.
+[2014.10.19-20.02.40:763][984]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.02.40:768][984]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.19
+[2014.10.19-20.03.13:690][295]LogClass: Myo 1  has connected.
+[2014.10.19-20.03.23:512][ 19]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.03.23:755][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7EBB96E80
+[2014.10.19-20.03.36:001][934]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.03.36:005][934]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.03.36:086][934]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.19-20.03.36:086][934]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:03:36 PM)
+[2014.10.19-20.03.36:089][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2014.10.19-20.03.36:089][934]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2014.10.19-20.03.36:089][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003247s)
+[2014.10.19-20.03.36:118][934]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.03.36:120][934]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.03.36:121][934]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.03.36
+[2014.10.19-20.03.36:121][934]LogWorld: Bringing up level for play took: 0.001011
+[2014.10.19-20.03.36:123][934]Cmd: oculusdev on 
+[2014.10.19-20.03.36:124][934]Command not recognized: oculusdev on 
+[2014.10.19-20.03.36:124][934]Cmd: hmdwarp 1=1 
+[2014.10.19-20.03.36:124][934]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.03.36:124][934]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.03.36:124][934]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.03.36:124][934]Cmd: hmd sp 130.0
+[2014.10.19-20.03.36:124][934]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.03.36:124][934]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.03.36:125][934]LogClass: Myo Hub Initialized.
+[2014.10.19-20.03.36:125][934]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.03.36:126][934]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.833
+[2014.10.19-20.03.36:127][934]LogClass: Myo 1  has connected.
+[2014.10.19-20.04.44:147][224]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.04.44:403][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7EB3F7880
+[2014.10.19-20.05.03:665][987]BlueprintLog: New page: Compile TheFunHouse
+[2014.10.19-20.05.03:741][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A797A87BA0
+[2014.10.19-20.05.03:750][987]BlueprintEditorCompileResults: Info [4499.16] Compile of TheFunHouse successful! [in 4 ms]
+[2014.10.19-20.05.05:838][152]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.05.05:845][152]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.05.05:921][152]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.10.19-20.05.05:921][152]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:05:05 PM)
+[2014.10.19-20.05.05:924][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002551s)
+[2014.10.19-20.05.05:925][152]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2014.10.19-20.05.05:925][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003255s)
+[2014.10.19-20.05.05:954][152]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.05.05:956][152]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.05.05:957][152]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.05.05
+[2014.10.19-20.05.05:957][152]LogWorld: Bringing up level for play took: 0.000991
+[2014.10.19-20.05.05:960][152]Cmd: oculusdev on 
+[2014.10.19-20.05.05:960][152]Command not recognized: oculusdev on 
+[2014.10.19-20.05.05:960][152]Cmd: hmdwarp 1=1 
+[2014.10.19-20.05.05:960][152]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.05.05:960][152]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.05.05:960][152]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.05.05:960][152]Cmd: hmd sp 130.0
+[2014.10.19-20.05.05:960][152]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.05.05:960][152]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.05.05:961][152]LogClass: Myo Hub Initialized.
+[2014.10.19-20.05.05:961][152]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.05.05:962][152]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 1.004
+[2014.10.19-20.05.05:963][152]LogClass: Myo 1  has connected.
+[2014.10.19-20.05.23:050][526]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.05.23:135][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7EB402A20
+[2014.10.19-20.05.29:793][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_whole)
+[2014.10.19-20.05.30:790][ 51]LogEditorViewport: Clicking on Actor (LMB): P_Pedestal_C (P_Pedestal)
+[2014.10.19-20.05.31:679][125]LogEditorViewport: Clicking on Actor (LMB): P_Pedestal_C (P_Pedestal)
+[2014.10.19-20.05.38:747][579]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.05.38:750][579]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.05.38:828][579]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2014.10.19-20.05.38:828][579]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:05:38 PM)
+[2014.10.19-20.05.38:831][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002637s)
+[2014.10.19-20.05.38:832][579]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2014.10.19-20.05.38:832][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003357s)
+[2014.10.19-20.05.38:862][579]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.05.38:863][579]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.05.38:864][579]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.05.38
+[2014.10.19-20.05.38:864][579]LogWorld: Bringing up level for play took: 0.000983
+[2014.10.19-20.05.38:867][579]Cmd: oculusdev on 
+[2014.10.19-20.05.38:867][579]Command not recognized: oculusdev on 
+[2014.10.19-20.05.38:867][579]Cmd: hmdwarp 1=1 
+[2014.10.19-20.05.38:867][579]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.05.38:867][579]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.05.38:867][579]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.05.38:867][579]Cmd: hmd sp 130.0
+[2014.10.19-20.05.38:867][579]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.05.38:867][579]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.05.38:868][579]LogClass: Myo Hub Initialized.
+[2014.10.19-20.05.38:868][579]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.05.38:869][579]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.089
+[2014.10.19-20.05.38:870][579]LogClass: Myo 1  has connected.
+[2014.10.19-20.05.43:541][935]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.05.43:642][935]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7E632AE80
+[2014.10.19-20.05.44:629][995]MapCheck: New page: Map Check
+[2014.10.19-20.05.44:664][995]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.19-20.05.44:665][995]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.19-20.05.44:813][995]LightingResults: New page: Lighting Build - Oct 19, 2014, 12:05:44 PM
+[2014.10.19-20.05.49:390][995]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.19-20.05.49:397][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.19-20.05.49:397][995]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.19-20.05.49:397][995]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.19-20.05.49:397][995]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.19-20.05.49:397][995]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.19-20.05.49:444][995]LogEditorBuildUtils: Build time 0:00:04
+[2014.10.19-20.05.50:479][ 41]LightingResults:Error: Error Floor_StaticMesh Object has wrapping UVs.
+[2014.10.19-20.05.50:858][ 65]LightingResults:Error: Error main_room_no_wall Object has overlapping UVs.
+[2014.10.19-20.05.50:858][ 65]LightingResults: Info main_room_no_wall Lightmap UV are overlapping by 23.6%. Please adjust content - Enable Error Coloring to visualize.
+[2014.10.19-20.05.51:037][ 79]Job is a success!
+[2014.10.19-20.05.51:100][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.19-20.05.51:125][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.19-20.05.51:158][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.10.19-20.05.51:169][ 80]Lightmass on RUSS-DESKTOP: 1.42 sec total, 159 ms importing, 5 ms setup, 510 ms photons, 738 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 7.64 sec total, 1.46 sec processing.
+[2014.10.19-20.05.51:208][ 80]LogStaticLightingSystem:Warning: Illumination: 6.37 sec (71 ms encoding lightmaps)
+[2014.10.19-20.05.51:208][ 80]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.10.19-20.05.51:208][ 80]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2014.10.19-20.05.51:449][ 81]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.19-20.05.51:449][ 81]MapCheck: New page: TheFunHouse - Oct 19, 2014, 12:05:51 PM
+[2014.10.19-20.05.51:561][ 81]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.659ms to complete.
+[2014.10.19-20.05.54:086][256]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.05.54:089][256]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.05.54:165][256]LogPlayLevel: PIE:  Blueprint regeneration took 78 ms (1 blueprints)
+[2014.10.19-20.05.54:165][256]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:05:54 PM)
+[2014.10.19-20.05.54:168][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002571s)
+[2014.10.19-20.05.54:168][256]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2014.10.19-20.05.54:169][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003278s)
+[2014.10.19-20.05.54:198][256]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.05.54:199][256]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.05.54:201][256]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.05.54
+[2014.10.19-20.05.54:201][256]LogWorld: Bringing up level for play took: 0.001490
+[2014.10.19-20.05.54:203][256]Cmd: oculusdev on 
+[2014.10.19-20.05.54:204][256]Command not recognized: oculusdev on 
+[2014.10.19-20.05.54:204][256]Cmd: hmdwarp 1=1 
+[2014.10.19-20.05.54:204][256]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.05.54:204][256]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.05.54:204][256]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.05.54:204][256]Cmd: hmd sp 130.0
+[2014.10.19-20.05.54:204][256]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.05.54:204][256]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.05.54:205][256]LogClass: Myo Hub Initialized.
+[2014.10.19-20.05.54:205][256]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.05.54:206][256]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.752
+[2014.10.19-20.05.54:207][256]LogClass: Myo 1  has connected.
+[2014.10.19-20.05.59:595][692]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.05.59:706][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7DD9FED40
+[2014.10.19-20.06.04:233][980]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.06.04:236][980]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.06.04:317][980]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.19-20.06.04:317][980]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:06:04 PM)
+[2014.10.19-20.06.04:320][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002560s)
+[2014.10.19-20.06.04:321][980]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2014.10.19-20.06.04:321][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003281s)
+[2014.10.19-20.06.04:354][980]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.06.04:356][980]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.06.04:357][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.06.04
+[2014.10.19-20.06.04:357][980]LogWorld: Bringing up level for play took: 0.001003
+[2014.10.19-20.06.04:360][980]Cmd: oculusdev on 
+[2014.10.19-20.06.04:360][980]Command not recognized: oculusdev on 
+[2014.10.19-20.06.04:360][980]Cmd: hmdwarp 1=1 
+[2014.10.19-20.06.04:360][980]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.06.04:360][980]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.06.04:360][980]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.06.04:360][980]Cmd: hmd sp 130.0
+[2014.10.19-20.06.04:360][980]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.06.04:360][980]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.06.04:361][980]LogClass: Myo Hub Initialized.
+[2014.10.19-20.06.04:361][980]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.06.04:362][980]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse -0.596
+[2014.10.19-20.06.04:363][980]LogClass: Myo 1  has connected.
+[2014.10.19-20.06.07:718][236]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.06.07:850][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7EDFCCEA0
+[2014.10.19-20.06.09:351][344]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.19-20.06.09:355][344]LogPlayLevel: [PIE] Compiling TheFunHouse before PIE...
+[2014.10.19-20.06.09:450][344]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2014.10.19-20.06.09:450][344]PIE: New page: PIE session: TheFunHouse (Oct 19, 2014, 12:06:09 PM)
+[2014.10.19-20.06.09:453][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002653s)
+[2014.10.19-20.06.09:454][344]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2014.10.19-20.06.09:454][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.003388s)
+[2014.10.19-20.06.09:483][344]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.19-20.06.09:485][344]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.19-20.06.09:486][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.19-16.06.09
+[2014.10.19-20.06.09:486][344]LogWorld: Bringing up level for play took: 0.001116
+[2014.10.19-20.06.09:489][344]Cmd: oculusdev on 
+[2014.10.19-20.06.09:489][344]Command not recognized: oculusdev on 
+[2014.10.19-20.06.09:489][344]Cmd: hmdwarp 1=1 
+[2014.10.19-20.06.09:489][344]Command not recognized:  hmdwarp 1=1 
+[2014.10.19-20.06.09:489][344]Cmd: hmdwarp s=1.3 
+[2014.10.19-20.06.09:489][344]Command not recognized:  hmdwarp s=1.3 
+[2014.10.19-20.06.09:489][344]Cmd: hmd sp 130.0
+[2014.10.19-20.06.09:489][344]Command not recognized:  hmd sp 130.0
+[2014.10.19-20.06.09:489][344]LogClass: InterfaceDelegate passed: P_Pedestal_C_1
+[2014.10.19-20.06.09:490][344]LogClass: Myo Hub Initialized.
+[2014.10.19-20.06.09:490][344]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.19-20.06.09:491][344]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 0.533
+[2014.10.19-20.06.09:492][344]LogClass: Myo 1  has connected.
+[2014.10.19-20.06.12:811][592]LogClass: Myo Hub Shutdown.
+[2014.10.19-20.06.12:958][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7E2D8F4C0
+[2014.10.19-20.06.15:293][738]Cmd: TRANSACTION UNDO
+[2014.10.19-20.06.15:293][738]LogEditorTransaction: Undo Move Actors
+[2014.10.19-20.06.15:321][738]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-20.06.15:357][738]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-20.06.17:385][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wall_whole)
+[2014.10.19-20.06.17:924][825]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
+[2014.10.19-20.06.17:924][825]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2014.10.19-20.06.17:924][825]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2014.10.19-20.06.17:924][825]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-20.06.17:924][825]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.19-20.06.18:378][855]MaterialEditorStats: Info Base pass shader with static lighting: 5 instructions
+[2014.10.19-20.06.18:379][855]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 5 instructions
+[2014.10.19-20.06.18:379][855]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 5 instructions
+[2014.10.19-20.06.18:379][855]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.19-20.06.18:379][855]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.19-20.06.18:993][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheFunHouse" FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-20.06.19:096][889]LogSavePackage: Save=55.004047ms
+[2014.10.19-20.06.19:096][889]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/TheFunHouse70A2921D42D19CE157A220BAC04D06E1.tmp' to '../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap'
+[2014.10.19-20.06.19:127][889]LogFileHelpers: Saving map 'TheFunHouse' took 0.245
+[2014.10.19-20.06.19:147][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/P_Pedestal" FILE="../../../../../../git/FunWithVR/Content/Actors/P_Pedestal.uasset" SILENT=true
+[2014.10.19-20.06.19:490][889]LogSavePackage: Save=313.955627ms
+[2014.10.19-20.06.19:490][889]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/P_PedestalCC7405234E5213F70EFDF2A08C0E35F3.tmp' to '../../../../../../git/FunWithVR/Content/Actors/P_Pedestal.uasset'
+[2014.10.19-20.06.19:496][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/MainRoom/wall_part1" FILE="../../../../../../git/FunWithVR/Content/Assets/Meshes/MainRoom/wall_part1.uasset" SILENT=true
+[2014.10.19-20.06.19:531][889]LogSavePackage: Save=8.565708ms
+[2014.10.19-20.06.19:532][889]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/wall_part1A1A16F9142635666E91381B7AA7D4F77.tmp' to '../../../../../../git/FunWithVR/Content/Assets/Meshes/MainRoom/wall_part1.uasset'
+[2014.10.19-20.06.33:450][ 82]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (wall_whole)
+[2014.10.19-20.06.34:265][139]LogEditorViewport: Clicking on Actor (LMB): P_Pedestal_C (P_Pedestal)
+[2014.10.19-20.09.41:890][231]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.19-20.09.41:957][231]LogMaterial: Missing cached shader map for material M_Clear_Glass_Transition, compiling.
+[2014.10.19-20.09.41:989][231]LogMaterial: Missing cached shader map for material M_Clear_Glass_Transition, compiling.
+[2014.10.19-20.09.41:998][231]LogMaterial: 0.001331 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-20.09.46:637][231]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.19-20.09.46:690][231]LogMaterial: Missing cached shader map for material M_GlowGlass, compiling.
+[2014.10.19-20.09.46:724][231]LogMaterial: Missing cached shader map for material M_GlowGlass, compiling.
+[2014.10.19-20.09.46:737][231]LogMaterial: 0.001801 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.19-20.09.48:298][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TheFunHouse" FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.19-20.09.48:413][231]LogSavePackage: Save=63.577110ms
+[2014.10.19-20.09.48:413][231]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/TheFunHouse8CA7E7F64415D8D5A4B028A26CC4E8C4.tmp' to '../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap'
+[2014.10.19-20.09.48:450][231]LogFileHelpers: Saving map 'TheFunHouse' took 0.281
+[2014.10.19-20.09.48:500][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MainRoom/M_Clear_Glass_Transition" FILE="../../../../../../git/FunWithVR/Content/Materials/MainRoom/M_Clear_Glass_Transition.uasset" SILENT=true
+[2014.10.19-20.09.48:911][231]LogSavePackage: Save=376.728394ms
+[2014.10.19-20.09.48:911][231]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/M_Clear_Glass_TransitionAB348B2A42E839869D1B41933F0C8A2D.tmp' to '../../../../../../git/FunWithVR/Content/Materials/MainRoom/M_Clear_Glass_Transition.uasset'
+[2014.10.19-20.09.50:280][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/pedestal/M_GlowGlass" FILE="../../../../../../git/FunWithVR/Content/Materials/pedestal/M_GlowGlass.uasset" SILENT=true
+[2014.10.19-20.09.50:484][231]LogSavePackage: Save=177.120163ms
+[2014.10.19-20.09.50:484][231]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/M_GlowGlass664322CE41905DBA51013586387F9678.tmp' to '../../../../../../git/FunWithVR/Content/Materials/pedestal/M_GlowGlass.uasset'
+[2014.10.19-20.09.51:449][232]Cmd: QUIT_EDITOR
+[2014.10.19-20.09.52:055][232]LogExit: Preparing to exit.
+[2014.10.19-20.09.52:899][232]LogExit: Editor shut down
+[2014.10.19-20.09.52:900][232]LogExit: Transaction tracking system shut down
+[2014.10.19-20.09.52:900][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7A29727A0
+[2014.10.19-20.09.52:901][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AF521300
+[2014.10.19-20.09.52:901][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A79F0CDC60
+[2014.10.19-20.09.52:902][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D9DFAE80
+[2014.10.19-20.09.52:912][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7AB6CE660
+[2014.10.19-20.09.52:912][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D9E68AE0
+[2014.10.19-20.09.52:913][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7D4896D40
+[2014.10.19-20.09.52:913][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7B259E2A0
+[2014.10.19-20.09.52:941][232]LogExit: Object subsystem successfully closed.
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module DistCurveEditor (172)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module Cascade (171)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (170)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (169)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module MaterialEditor (168)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module SceneOutliner (164)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module BspMode (154)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
+[2014.10.19-20.09.52:986][232]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module Layers (123)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
+[2014.10.19-20.09.52:987][232]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module Kismet (117)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module HTTP (106)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module AnalyticsET (105)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module Analytics (104)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2014.10.19-20.09.53:021][232]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module MyoPlugin (99)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.10.19-20.09.53:149][232]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.10.19-20.09.53:150][232]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.10.19-20.09.53:150][232]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.10.19-20.09.53:150][232]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.10.19-20.09.53:151][232]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.10.19-20.09.53:252][232]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.10.19-20.09.53:253][232]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.10.19-20.09.53:253][232]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.10.19-20.09.53:253][232]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.10.19-20.09.53:253][232]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.10.19-20.09.53:254][232]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.10.19-20.09.53:273][232]LogDerivedDataCache: Shutdown
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.19-20.09.53:273][232]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.19-20.09.53:275][232]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.19-20.09.53:275][232]LogExit: Exiting.
+[2014.10.19-20.09.53:290][232]Log file closed, 10/19/14 16:09:53

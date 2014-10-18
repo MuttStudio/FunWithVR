@@ -1,1699 +1,308 @@
-Log file open, 10/17/14 20:20:36
+﻿Log file open, 10/18/14 13:39:23
 LogInit:Display: Running engine for game: FunWithVR
-LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
-LogInit: API Version: 2255576
-LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
-LogInit: Branch Name: ++depot+UE4-Releases+4.4
-LogInit: Command line: 
-LogInit: Base directory: D:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.10.18-00.20.36:581][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2014.10.18-00.20.36:629][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.10.18-00.20.36:634][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.10.18-00.20.36:640][  0]LogInit: Object subsystem initialized
-[2014.10.18-00.20.36:642][  0]LogInit: Selected Device Profile: [Windows]
-[2014.10.18-00.20.36:642][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.10.18-00.20.36:644][  0]LogInit: Computer: RUSS-DESKTOP
-[2014.10.18-00.20.36:644][  0]LogInit: User: russe000
-[2014.10.18-00.20.36:646][  0]LogInit: CPU Page size=4096, Cores=6
-[2014.10.18-00.20.36:646][  0]LogInit: High frequency timer resolution =3.126770 MHz
-[2014.10.18-00.20.36:646][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=131072.0GB
-[2014.10.18-00.20.36:646][  0]LogMemory: Platform Memory Stats for Windows
-[2014.10.18-00.20.36:646][  0]LogMemory: Process Physical Memory: 58.99 MB used, 58.99 MB peak
-[2014.10.18-00.20.36:646][  0]LogMemory: Process Virtual Memory: 36.44 MB used, 36.44 MB peak
-[2014.10.18-00.20.36:646][  0]LogMemory: Physical Memory: 7394.17 MB used, 32706.90 MB total
-[2014.10.18-00.20.36:646][  0]LogMemory: Virtual Memory: 266.33 MB used, 134217728.00 MB total
-[2014.10.18-00.20.36:666][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 580 (Feature Level 11_0)
-[2014.10.18-00.20.36:666][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
-[2014.10.18-00.20.36:676][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 580 (Feature Level 11_0)
-[2014.10.18-00.20.36:676][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
-[2014.10.18-00.20.36:677][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.10.18-00.20.36:677][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.10.18-00.20.36:677][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.10.18-00.20.36:680][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.10.18-00.20.36:687][  0]LogD3D11RHI: Async texture creation enabled
-[2014.10.18-00.20.36:784][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.10.18-00.20.38:013][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.18-00.20.38:323][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.18-00.20.38:349][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.10.18-00.20.38:415][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.10.18-00.20.38:415][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/russe_000/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.10.18-00.20.38:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../git/FunWithVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.10.18-00.20.38:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.10.18-00.20.38:431][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.10.18-00.20.38:443][  0]LogDerivedDataCache: Using Local data cache path D:/Users/russe_000/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.10.18-00.20.38:565][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.10.18-00.20.38:565][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.10.18-00.20.38:853][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.10.18-00.20.39:505][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1258_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1978_0///////STATCAT_Advanced////
-[2014.10.18-00.20.39:505][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.10.18-00.20.39:589][  0]SourceControl: Info Source control is disabled
-[2014.10.18-00.20.39:589][  0]SourceControl: Info Source control is disabled
-[2014.10.18-00.20.39:593][  0]SourceControl: Info Source control is disabled
-[2014.10.18-00.20.39:702][  0]BlueprintLog: New page: Editor Load
-[2014.10.18-00.20.39:757][  0]LogObj: 21438 objects as part of root set at end of initial load.
-[2014.10.18-00.20.39:757][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
-[2014.10.18-00.20.39:902][  0]LogEngine: Initializing Engine...
-[2014.10.18-00.20.39:986][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2014.10.18-00.20.39:994][  0]LogInit: FAudioDevice initialized.
-[2014.10.18-00.20.40:004][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.10.18-00.20.40:036][  0]LogDerivedDataCache: Saved boot cache 0.03s 76MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.10.18-00.20.40:045][  0]LogInit: Texture streaming: Enabled
-[2014.10.18-00.20.40:066][  0]LogInit: Transaction tracking system initialized
-[2014.10.18-00.20.40:131][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2014.10.18-00.20.40:464][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.18-00.20.40:741][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.10.18-00.20.40:814][  0]LogConsoleResponse:Display: 
-[2014.10.18-00.20.40:923][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3298_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1978_0///////STATCAT_Advanced////
-[2014.10.18-00.20.40:923][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2a7c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1978_0///////STATCAT_Advanced////
-[2014.10.18-00.20.40:923][  0]SourceControl: Info Source control is disabled
-[2014.10.18-00.20.40:923][  0]Cmd: MAP LOAD FILE="../../../../../../git/FunWithVR/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.10.18-00.20.40:923][  0]LightingResults: New page: Lighting Build
-[2014.10.18-00.20.40:927][  0]MapCheck: New page: Map Check
-[2014.10.18-00.20.40:927][  0]LightingResults: New page: Lighting Build
-[2014.10.18-00.20.40:933][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4D021B420
-[2014.10.18-00.20.43:057][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.20.43:058][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.20.43:119][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.20.43:119][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.20.43:123][  0]LogBlueprint:Warning: [compiler] Warning [0007.10] Compile of VRPlayerController successful, but with 4 Warning(s) [in 85 ms]
-[2014.10.18-00.20.43:509][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.20.43:510][  0]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.20.43:528][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.20.43:528][  0]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.20.43:532][  0]LogBlueprint:Warning: [compiler] Warning [0007.50] Compile of VRPlayerController successful, but with 4 Warning(s) [in 36 ms]
-[2014.10.18-00.20.44:728][  0]LogTexture:Display: Building textures: crosshair (AutoDXT)
-[2014.10.18-00.20.44:841][  0]LogTexture:Display: Building textures: SettingsMask (AutoDXT)
-[2014.10.18-00.20.44:875][  0]LogTexture:Display: Building textures: HMDSettingsBase_Tex (AutoDXT)
-[2014.10.18-00.20.45:077][  0]LogMaterial: Missing cached shader map for material MenuBase_Mat, compiling.
-[2014.10.18-00.20.45:106][  0]LogTexture:Display: Building textures: SettingsBase_Tex (AutoDXT)
-[2014.10.18-00.20.45:283][  0]LogTexture:Display: Building textures: MovementBase_Tex (AutoDXT)
-[2014.10.18-00.20.45:385][  0]LogMaterial: Missing cached shader map for material M_MenuToggleCircle, compiling.
-[2014.10.18-00.20.45:475][  0]LogMaterial: Missing cached shader map for material M_Menu_Background, compiling.
-[2014.10.18-00.20.45:479][  0]LogTexture:Display: Building textures: BackBase_Tex (AutoDXT)
-[2014.10.18-00.20.45:517][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialTranslucentDepthTestDisabled, compiling.
-[2014.10.18-00.20.45:573][  0]LogMaterial: Missing cached shader map for material M_HighlightMaterial, compiling.
-[2014.10.18-00.20.45:840][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
-[2014.10.18-00.20.45:866][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.10.18-00.20.45:866][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2014.10.18-00.20.45:873][  0]LogMaterial: Missing cached shader map for material Mirror_Mat, compiling.
-[2014.10.18-00.20.46:591][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.10.18-00.20.46:667][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.10.18-00.20.46:672][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.10.18-00.20.46:685][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.10.18-00.20.46:733][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.10.18-00.20.46:734][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.10.18-00.20.46:986][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.18-00.20.46:986][  0]LogAIModule: Creating AISystem for world Example_Map
-[2014.10.18-00.20.47:040][  0]Cmd: MAP CHECKDEP
-[2014.10.18-00.20.47:040][  0]MapCheck: New page: Example_Map - Oct 17, 2014, 4:20:47 PM
-[2014.10.18-00.20.47:100][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.988ms] ==========
-[2014.10.18-00.20.47:101][  0]LogFileHelpers: Loading map 'Example_Map' took 6.178
-[2014.10.18-00.20.48:157][  0]LogCollectionManager: Loaded 0 collections in 0.014032 seconds
-[2014.10.18-00.20.50:941][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.10.18-00.20.51:189][  0]LogLoad: Full Startup: 15.16 seconds (BP compile: 0.87 seconds)
-[2014.10.18-00.20.52:437][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x912.
-[2014.10.18-00.20.55:860][136]LogAssetRegistry: Asset discovery search completed in 15.7403 seconds
-[2014.10.18-00.28.11:239][225]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
-[2014.10.18-00.28.11:240][225]LightingResults: New page: Lighting Build
-[2014.10.18-00.28.11:265][225]LoadErrors: New page: Loading map: Template_Default.umap
-[2014.10.18-00.28.11:266][225]MapCheck: New page: Map Check
-[2014.10.18-00.28.11:266][225]LightingResults: New page: Lighting Build
-[2014.10.18-00.28.11:318][225]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4D294C220
-[2014.10.18-00.28.11:403][225]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.10.18-00.28.11:403][225]LogAIModule: Creating AISystem for world Template_Default
-[2014.10.18-00.28.11:403][225]Cmd: MAP CHECKDEP
-[2014.10.18-00.28.11:403][225]MapCheck: New page: Untitled_1 - Oct 17, 2014, 4:28:11 PM
-[2014.10.18-00.28.11:453][225]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [49.815ms] ==========
-[2014.10.18-00.28.11:453][225]LogFileHelpers: Loading map 'Template_Default' took 0.214
-[2014.10.18-00.28.22:748][484]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
-[2014.10.18-00.28.26:832][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets'
-[2014.10.18-00.28.29:172][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
-[2014.10.18-00.28.52:432][377]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../git/FunWithVR/AssetBases/export/room.FBX)
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: Model, ItemCount : 75
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: NodeAttribute, ItemCount : 23
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: Geometry, ItemCount : 44
-[2014.10.18-00.28.52:509][377]LogFbx: ItemName: Material, ItemCount : 8
-[2014.10.18-00.28.54:846][377]LogFbx: Loading FBX Scene from ../../../../../../git/FunWithVR/AssetBases/export/room.FBX
-[2014.10.18-00.28.54:910][377]LogFbx: FBX Scene Loaded Succesfully
-[2014.10.18-00.28.54:925][377]LogFbx:Warning: Triangulating static mesh Ceiling_Column_Vertical
-[2014.10.18-00.28.54:929][377]LogFbx:Warning: Triangulating static mesh Ceiling_Column_Horizontal
-[2014.10.18-00.28.54:931][377]LogFbx:Warning: Triangulating static mesh Ceiling_2
-[2014.10.18-00.28.54:931][377]LogFbx:Warning: Triangulating static mesh Ceiling_Column_Vertical_1
-[2014.10.18-00.28.54:933][377]LogFbx:Warning: Triangulating static mesh Ceiling_Column_Vertical_2
-[2014.10.18-00.28.54:936][377]LogFbx:Warning: Triangulating static mesh Cube
-[2014.10.18-00.28.54:938][377]LogFbx:Warning: Triangulating static mesh AcousticPad_West
-[2014.10.18-00.28.54:941][377]LogFbx:Warning: Triangulating static mesh AcousticPad_NorthEast
-[2014.10.18-00.28.54:945][377]LogFbx:Warning: Triangulating static mesh AcousticPad_SouthEast
-[2014.10.18-00.28.54:948][377]LogFbx:Warning: Triangulating static mesh Frame
-[2014.10.18-00.28.54:950][377]LogFbx:Warning: Triangulating static mesh Hole
-[2014.10.18-00.28.54:952][377]LogFbx:Warning: Triangulating static mesh Frame_2
-[2014.10.18-00.28.54:955][377]LogFbx:Warning: Triangulating static mesh Hole_2
-[2014.10.18-00.28.54:957][377]LogFbx:Warning: Triangulating static mesh Frame_3
-[2014.10.18-00.28.54:959][377]LogFbx:Warning: Triangulating static mesh Hole_3
-[2014.10.18-00.28.54:961][377]LogFbx:Warning: Triangulating static mesh Frame_4
-[2014.10.18-00.28.54:963][377]LogFbx:Warning: Triangulating static mesh Hole_4
-[2014.10.18-00.28.54:966][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_1
-[2014.10.18-00.28.54:968][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz
-[2014.10.18-00.28.54:970][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_2
-[2014.10.18-00.28.54:972][377]LogFbx:Warning: Triangulating static mesh ShelfSuppor
-[2014.10.18-00.28.54:979][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_2_2
-[2014.10.18-00.28.54:981][377]LogFbx:Warning: Triangulating static mesh ShelfVert
-[2014.10.18-00.28.54:984][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_1_2
-[2014.10.18-00.28.54:986][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_2_3
-[2014.10.18-00.28.54:989][377]LogFbx:Warning: Triangulating static mesh ShelfHoriz_3
-[2014.10.18-00.28.54:991][377]LogFbx:Warning: Triangulating static mesh Shelf_Wood
-[2014.10.18-00.28.54:994][377]LogFbx:Warning: Triangulating static mesh Door
-[2014.10.18-00.28.54:996][377]LogFbx:Warning: Triangulating static mesh Pillar
-[2014.10.18-00.28.54:998][377]LogFbx:Warning: Triangulating static mesh Floor_Divider
-[2014.10.18-00.28.54:999][377]LogFbx:Warning: Triangulating static mesh Floor_Foyeur
-[2014.10.18-00.28.55:000][377]LogFbx:Warning: Triangulating static mesh Wall_East
-[2014.10.18-00.28.55:001][377]LogFbx:Warning: Triangulating static mesh Walls
-[2014.10.18-00.28.55:445][377]LogFbx:Warning: Triangulating static mesh Walls_2
-[2014.10.18-00.28.55:969][377]LogFbx:Warning: Triangulating static mesh DividingPillar
-[2014.10.18-00.28.55:977][377]LogFbx:Warning: Triangulating static mesh LightBulb_0
-[2014.10.18-00.28.55:995][377]LogFbx:Warning: Triangulating static mesh LightBulb_1
-[2014.10.18-00.28.56:013][377]LogFbx:Warning: Triangulating static mesh LightBulb_2
-[2014.10.18-00.28.56:031][377]LogFbx:Warning: Triangulating static mesh LightBulb_3
-[2014.10.18-00.28.56:050][377]LogFbx:Warning: Triangulating static mesh LightBulb_0_2
-[2014.10.18-00.28.56:069][377]LogFbx:Warning: Triangulating static mesh LightBulb_1_2
-[2014.10.18-00.28.56:088][377]LogFbx:Warning: Triangulating static mesh LightBulb_2_2
-[2014.10.18-00.28.56:107][377]LogFbx:Warning: Triangulating static mesh LightBulb_3_2
-[2014.10.18-00.28.56:126][377]LogFbx: == Initial material list:
-[2014.10.18-00.28.56:126][377]LogFbx: 0: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 1: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 2: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 3: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 4: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 5: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 6: Fabric_Beige
-[2014.10.18-00.28.56:126][377]LogFbx: 7: Fabric_Beige
-[2014.10.18-00.28.56:126][377]LogFbx: 8: Fabric_Beige
-[2014.10.18-00.28.56:126][377]LogFbx: 9: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 10: Vent_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 11: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 12: Vent_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 13: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 14: Vent_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 15: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 16: Vent_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 17: Wood_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 18: Wood_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 19: Wood_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 20: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 21: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 22: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 23: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 24: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 25: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 26: Wood_Pine
-[2014.10.18-00.28.56:126][377]LogFbx: 27: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 28: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 29: Paint_Grey
-[2014.10.18-00.28.56:126][377]LogFbx: 30: Paint_Grey
-[2014.10.18-00.28.56:126][377]LogFbx: 31: Paint_Grey
-[2014.10.18-00.28.56:126][377]LogFbx: 32: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 33: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 34: Paint_Green
-[2014.10.18-00.28.56:126][377]LogFbx: 35: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 36: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 37: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 38: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 39: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 40: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 41: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 42: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: 43: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 1 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 2 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 3 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 4 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 5 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 7 -> 1
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 8 -> 1
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 9 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 11 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 12 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 13 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 14 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 15 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 16 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 18 -> 3
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 19 -> 3
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 20 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 21 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 22 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 23 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 24 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 25 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 27 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 28 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 30 -> 5
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 31 -> 5
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 32 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 33 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 35 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 37 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 38 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 39 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 40 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 41 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 42 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   remap 43 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx: == After sorting:
-[2014.10.18-00.28.56:126][377]LogFbx: 0: Paint_White
-[2014.10.18-00.28.56:126][377]LogFbx: 1: Fabric_Beige
-[2014.10.18-00.28.56:126][377]LogFbx: 2: Vent_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 3: Wood_Black
-[2014.10.18-00.28.56:126][377]LogFbx: 4: Wood_Pine
-[2014.10.18-00.28.56:126][377]LogFbx: 5: Paint_Grey
-[2014.10.18-00.28.56:126][377]LogFbx: 6: Paint_Green
-[2014.10.18-00.28.56:126][377]LogFbx: 7: LightBulb
-[2014.10.18-00.28.56:126][377]LogFbx: == Mapping table:
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 0 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 1 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 2 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 3 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 4 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 5 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 6 -> 1
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 7 -> 1
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 8 -> 1
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 9 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 10 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 11 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 12 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 13 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 14 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 15 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 16 -> 2
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 17 -> 3
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 18 -> 3
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 19 -> 3
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 20 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 21 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 22 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 23 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 24 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 25 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 26 -> 4
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 27 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 28 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 29 -> 5
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 30 -> 5
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 31 -> 5
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 32 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 33 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 34 -> 6
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 35 -> 0
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 36 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 37 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 38 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 39 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 40 -> 7
-[2014.10.18-00.28.56:126][377]LogFbx:   sort 41 -> 7
-[2014.10.18-00.28.56:127][377]LogFbx:   sort 42 -> 7
-[2014.10.18-00.28.56:127][377]LogFbx:   sort 43 -> 7
-[2014.10.18-00.28.56:178][377]LogStaticMesh: Building static mesh room...
-[2014.10.18-00.28.56:297][377]LogStaticMesh: Built static mesh [163.759094ms] /Game/Assets/Meshes/room.room
-[2014.10.18-00.28.56:522][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.10.18-00.28.56:522][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Assets/Meshes'
-[2014.10.18-00.28.58:866][606]LogActorFactory: Actor Factory created room
-[2014.10.18-00.28.59:571][675]LogActorFactory: Actor Factory created room
-[2014.10.18-00.29.05:940][349]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.10.18-00.29.06:537][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.10.18-00.29.07:458][514]Cmd: DELETE
-[2014.10.18-00.29.07:458][514]Cmd: ACTOR DELETE
-[2014.10.18-00.29.07:520][514]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.10.18-00.29.07:567][514]LogEditorActor: Deleted 1 Actors (0.047 secs)
-[2014.10.18-00.31.43:677][770]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.10.18-00.31.44:594][847]Cmd: DELETE
-[2014.10.18-00.31.44:594][847]Cmd: ACTOR DELETE
-[2014.10.18-00.31.44:594][847]LogEditorActor: Deleted Actor: PointLight
-[2014.10.18-00.31.44:605][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.10.18-00.31.44:628][847]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2014.10.18-00.31.53:183][648]MapCheck: New page: Map Check
-[2014.10.18-00.31.53:255][648]LightingResults: New page: Lighting Build - Oct 17, 2014, 4:31:53 PM
-[2014.10.18-00.32.11:085][648]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.10.18-00.32.11:088][648]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.10.18-00.32.11:088][648]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.10.18-00.32.11:088][648]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.10.18-00.32.11:088][648]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.10.18-00.32.11:088][648]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.10.18-00.32.11:340][648]LogEditorBuildUtils: Build time 0:00:18
-[2014.10.18-00.32.11:348][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_28, compiling.
-[2014.10.18-00.32.11:351][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_28, compiling.
-[2014.10.18-00.32.11:409][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_28, compiling.
-[2014.10.18-00.32.15:331][835]LightingResults:Error: Error room Object has overlapping UVs.
-[2014.10.18-00.32.15:331][835]LightingResults: Info room Lightmap UV are overlapping by 99.4%. Please adjust content - Enable Error Coloring to visualize.
-[2014.10.18-00.32.15:418][843]Job is a success!
-[2014.10.18-00.32.15:797][844]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.10.18-00.32.15:883][844]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.10.18-00.32.15:982][844]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2014.10.18-00.32.16:012][844]Lightmass on RUSS-DESKTOP: 2.72 sec total, 185 ms importing, 9 ms setup, 559 ms photons, 1.95 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 22.8 sec total, 1.39 sec processing.
-[2014.10.18-00.32.16:068][844]LogStaticLightingSystem:Warning: Illumination: 22.7 sec (361 ms encoding lightmaps)
-[2014.10.18-00.32.16:068][844]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2014.10.18-00.32.16:068][844]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
-[2014.10.18-00.32.17:061][845]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.10.18-00.32.17:062][845]MapCheck: New page: Untitled_1 - Oct 17, 2014, 4:32:17 PM
-[2014.10.18-00.32.17:147][845]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [85.301ms] ==========
-[2014.10.18-00.33.01:865][219]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (room)
-[2014.10.18-00.33.03:380][326]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.10.18-00.33.03:381][326]PIE: New page: PIE session: Untitled_1 (Oct 17, 2014, 4:33:03 PM)
-[2014.10.18-00.33.03:383][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002016s)
-[2014.10.18-00.33.03:396][326]LogPlayLevel: PIE: World Init took: (0.000683s)
-[2014.10.18-00.33.03:397][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.015860s)
-[2014.10.18-00.33.03:470][326]LogWorld: Game class is 'VRGameMode_C'
-[2014.10.18-00.33.03:637][326]LogAIModule: Creating AISystem for world Template_Default
-[2014.10.18-00.33.03:639][326]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.10.17-20.33.03
-[2014.10.18-00.33.03:639][326]LogWorld: Bringing up level for play took: 0.001276
-[2014.10.18-00.33.03:710][326]Cmd: oculusdev on 
-[2014.10.18-00.33.03:737][326]Command not recognized: oculusdev on 
-[2014.10.18-00.33.03:737][326]Cmd: hmdwarp 1=1 
-[2014.10.18-00.33.03:737][326]Command not recognized:  hmdwarp 1=1 
-[2014.10.18-00.33.03:737][326]Cmd: hmdwarp s=1.3 
-[2014.10.18-00.33.03:737][326]Command not recognized:  hmdwarp s=1.3 
-[2014.10.18-00.33.03:737][326]Cmd: hmd sp 130.0
-[2014.10.18-00.33.03:737][326]Command not recognized:  hmd sp 130.0
-[2014.10.18-00.33.03:738][326]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.564
-[2014.10.18-00.33.04:715][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4D52304A0
-[2014.10.18-00.33.12:839][893]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.10.18-00.33.12:839][893]PIE: New page: SIE session: Untitled_1 (Oct 17, 2014, 4:33:12 PM)
-[2014.10.18-00.33.12:840][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001548s)
-[2014.10.18-00.33.12:841][893]LogPlayLevel: PIE: World Init took: (0.000569s)
-[2014.10.18-00.33.12:841][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002278s)
-[2014.10.18-00.33.12:842][893]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Temp/UEDPIE_0_Untitled_1.Template_Default:PersistentLevel.room_3"
-[2014.10.18-00.33.12:871][893]LogWorld: Game class is 'VRGameMode_C'
-[2014.10.18-00.33.12:872][893]LogAIModule: Creating AISystem for world Template_Default
-[2014.10.18-00.33.12:873][893]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.10.17-20.33.12
-[2014.10.18-00.33.12:873][893]LogWorld: Bringing up level for play took: 0.001053
-[2014.10.18-00.33.12:874][893]Cmd: oculusdev on 
-[2014.10.18-00.33.12:874][893]Command not recognized: oculusdev on 
-[2014.10.18-00.33.12:874][893]Cmd: hmdwarp 1=1 
-[2014.10.18-00.33.12:874][893]Command not recognized:  hmdwarp 1=1 
-[2014.10.18-00.33.12:874][893]Cmd: hmdwarp s=1.3 
-[2014.10.18-00.33.12:874][893]Command not recognized:  hmdwarp s=1.3 
-[2014.10.18-00.33.12:874][893]Cmd: hmd sp 130.0
-[2014.10.18-00.33.12:874][893]Command not recognized:  hmd sp 130.0
-[2014.10.18-00.33.12:874][893]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.3
-[2014.10.18-00.33.12:907][893]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Temp/UEDPIE_0_Untitled_1.Template_Default:PersistentLevel.room_3"
-[2014.10.18-00.34.30:287][342]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.10.18-00.34.59:029][301]LogRenderer:Warning: Reallocating scene render targets to support 1424x912.
-[2014.10.18-00.35.30:558][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4D54FB740
-[2014.10.18-00.35.38:873][715]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
-[2014.10.18-00.36.30:582][794]LogStaticMesh: Building static mesh Box_Brush_StaticMesh...
-[2014.10.18-00.36.30:582][794]LogStaticMesh: Built static mesh [34.855778ms] /Game/Assets/Meshes/Box_Brush_StaticMesh.Box_Brush_StaticMesh
-[2014.10.18-00.36.30:639][794]LogActorFactory: Actor Factory created Box_Brush_StaticMesh
-[2014.10.18-00.36.30:656][794]EditorErrors: New page: Actor Reattachment
-[2014.10.18-00.36.34:628][128]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_Brush_StaticMesh)
-[2014.10.18-00.36.46:789][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_Brush_StaticMesh)
-[2014.10.18-00.36.53:523][680]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.10.18-00.37.16:599][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box_Brush_StaticMesh)
-[2014.10.18-00.37.17:365][411]Cmd: DELETE
-[2014.10.18-00.37.17:365][411]Cmd: ACTOR DELETE
-[2014.10.18-00.37.17:365][411]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.10.18-00.37.17:387][411]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2014.10.18-00.37.49:310][  8]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.10.18-00.38.25:366][795]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.10.18-00.38.25:367][795]PIE: New page: PIE session: Untitled_1 (Oct 17, 2014, 4:38:25 PM)
-[2014.10.18-00.38.25:371][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004140s)
-[2014.10.18-00.38.25:372][795]LogPlayLevel: PIE: World Init took: (0.000761s)
-[2014.10.18-00.38.25:372][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.005130s)
-[2014.10.18-00.38.25:405][795]LogWorld: Game class is 'VRGameMode_C'
-[2014.10.18-00.38.25:406][795]LogAIModule: Creating AISystem for world Template_Default
-[2014.10.18-00.38.25:407][795]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.10.17-20.38.25
-[2014.10.18-00.38.25:408][795]LogWorld: Bringing up level for play took: 0.001339
-[2014.10.18-00.38.25:430][795]Cmd: oculusdev on 
-[2014.10.18-00.38.25:430][795]Command not recognized: oculusdev on 
-[2014.10.18-00.38.25:430][795]Cmd: hmdwarp 1=1 
-[2014.10.18-00.38.25:430][795]Command not recognized:  hmdwarp 1=1 
-[2014.10.18-00.38.25:430][795]Cmd: hmdwarp s=1.3 
-[2014.10.18-00.38.25:430][795]Command not recognized:  hmdwarp s=1.3 
-[2014.10.18-00.38.25:430][795]Cmd: hmd sp 130.0
-[2014.10.18-00.38.25:430][795]Command not recognized:  hmd sp 130.0
-[2014.10.18-00.38.25:430][795]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.256
-[2014.10.18-00.46.59:520][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4D533DC60
-[2014.10.18-00.47.01:746][540]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.10.18-00.47.08:318][878]LogRenderer:Warning: Reallocating scene render targets to support 1616x912.
-[2014.10.18-00.47.16:259][234]BlueprintLog: New page: Compile VRPlayerController
-[2014.10.18-00.47.16:469][234]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.47.16:469][234]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.47.16:488][234]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.47.16:488][234]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.47.16:508][234]LogBlueprint:Warning: [compiler] Warning [1600.48] Compile of VRPlayerController successful, but with 4 Warning(s) [in 55 ms]
-[2014.10.18-00.47.16:743][234]BlueprintEditorCompileResults:Warning: Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.47.16:743][234]BlueprintEditorCompileResults:Warning: Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
-[2014.10.18-00.47.16:743][234]BlueprintEditorCompileResults:Warning: Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.47.16:743][234]BlueprintEditorCompileResults:Warning: Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
-[2014.10.18-00.47.16:743][234]BlueprintEditorCompileResults:Warning: Warning [1600.48] Compile of VRPlayerController successful, but with 4 Warning(s) [in 55 ms]
-[2014.10.18-00.47.16:758][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:758][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:767][235]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:767][235]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:825][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:825][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:828][237]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:828][237]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:841][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:841][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:864][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:864][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:888][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:888][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:907][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:907][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:928][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:928][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:947][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:947][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:966][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:966][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.16:987][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.16:987][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:007][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:007][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:027][247]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:027][247]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:048][248]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:048][248]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:067][249]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:067][249]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:087][250]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:087][250]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:108][251]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:108][251]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:127][252]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:127][252]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:148][253]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:148][253]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:167][254]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:167][254]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:186][255]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:186][255]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:233][256]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:233][256]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:242][257]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:242][257]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:260][258]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:260][258]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:285][259]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:285][259]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:308][260]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:308][260]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:334][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:334][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:358][262]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:358][262]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:383][263]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:383][263]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:412][264]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:412][264]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:435][265]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:435][265]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:460][266]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:460][266]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:485][267]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:485][267]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:509][268]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:509][268]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:533][269]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:533][269]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:559][270]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:559][270]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:584][271]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:584][271]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:608][272]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:608][272]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:634][273]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:634][273]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:659][274]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:659][274]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:684][275]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:684][275]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:710][276]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:710][276]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:741][277]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:741][277]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:760][278]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:760][278]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:776][279]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:777][279]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:797][280]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:797][280]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:820][281]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:820][281]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:844][282]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:844][282]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:863][283]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:863][283]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:883][284]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:883][284]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:903][285]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:903][285]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:923][286]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:923][286]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:944][287]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:944][287]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:963][288]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:963][288]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.17:984][289]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.17:984][289]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:003][290]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:003][290]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:025][291]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:025][291]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:044][292]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:044][292]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:064][293]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:064][293]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:083][294]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:083][294]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:106][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:106][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:125][296]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:125][296]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:149][297]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:149][297]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:164][298]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:164][298]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:185][299]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:185][299]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:205][300]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:205][300]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:226][301]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:226][301]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:245][302]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:245][302]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:266][303]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:266][303]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:284][304]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:284][304]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:305][305]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:305][305]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:325][306]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:325][306]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:344][307]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:344][307]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:369][308]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:369][308]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:391][309]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:391][309]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:404][310]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:404][310]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:426][311]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:426][311]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:443][312]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:443][312]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:461][313]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:461][313]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:482][314]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:482][314]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:504][315]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:504][315]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:526][316]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:526][316]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:546][317]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:546][317]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:569][318]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:569][318]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:589][319]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:589][319]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:612][320]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:612][320]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:634][321]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:634][321]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:661][322]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:661][322]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:678][323]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:678][323]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:699][324]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:699][324]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:724][325]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:724][325]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:743][326]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:743][326]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:761][327]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:762][327]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:782][328]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:782][328]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:808][329]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:808][329]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:838][330]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:838][330]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:849][331]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:849][331]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:870][332]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:870][332]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:888][333]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:888][333]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:906][334]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:906][334]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:929][335]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:929][335]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:947][336]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:947][336]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:974][337]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:974][337]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.18:984][338]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.18:984][338]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:008][339]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:008][339]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:030][340]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:030][340]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:047][341]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:047][341]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:068][342]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:068][342]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:091][343]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:091][343]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:105][344]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:105][344]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:125][345]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:125][345]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:145][346]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:145][346]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:163][347]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:163][347]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:185][348]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:185][348]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:201][349]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:201][349]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:226][350]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:226][350]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:242][351]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:242][351]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:263][352]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:263][352]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:284][353]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:284][353]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:306][354]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:306][354]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:327][355]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:327][355]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:350][356]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:350][356]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:376][357]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:376][357]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:389][358]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:389][358]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:409][359]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:409][359]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:432][360]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:432][360]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:448][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:448][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:468][362]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:468][362]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:487][363]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:487][363]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:508][364]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:508][364]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:528][365]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:528][365]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:547][366]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:547][366]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:565][367]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:565][367]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:585][368]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:585][368]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:605][369]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:605][369]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:626][370]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:626][370]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:647][371]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:647][371]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:673][372]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:673][372]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:693][373]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:693][373]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:719][374]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:719][374]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:781][375]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:781][375]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:790][376]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:790][376]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:796][377]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:796][377]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:821][378]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:821][378]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:842][379]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:842][379]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:866][380]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:866][380]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:885][381]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:885][381]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:908][382]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:908][382]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:929][383]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:929][383]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:949][384]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:949][384]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:976][385]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:976][385]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.19:993][386]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.19:993][386]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:012][387]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:012][387]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:035][388]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:035][388]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:108][389]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:108][389]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:118][390]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:118][390]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:131][391]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:131][391]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:157][392]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:157][392]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:183][393]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:183][393]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:208][394]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:208][394]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:234][395]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:234][395]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:267][396]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:268][396]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:291][397]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:291][397]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:309][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:309][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:333][399]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:333][399]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:359][400]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:359][400]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:385][401]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:385][401]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:409][402]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:409][402]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:434][403]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:435][403]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:460][404]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:460][404]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:484][405]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:484][405]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:510][406]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:510][406]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:534][407]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:534][407]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:560][408]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:560][408]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:585][409]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:585][409]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:609][410]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:609][410]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:634][411]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:634][411]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:659][412]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:659][412]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:684][413]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:684][413]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:709][414]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:709][414]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:734][415]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:734][415]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:760][416]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:760][416]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:783][417]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:784][417]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:808][418]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:808][418]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:834][419]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:834][419]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:858][420]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:858][420]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:884][421]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:884][421]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:910][422]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:910][422]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:934][423]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:934][423]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:958][424]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:958][424]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.20:983][425]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.20:983][425]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:008][426]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:008][426]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:036][427]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:036][427]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:059][428]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:059][428]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:085][429]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:085][429]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:110][430]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:110][430]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:134][431]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:134][431]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:159][432]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:159][432]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:184][433]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:184][433]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:210][434]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:210][434]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:234][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:234][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.47.21:259][436]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:0093
-[2014.10.18-00.47.21:259][436]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCameraManager_ReturnValue'
-	VRPlayerController_C /Engine/Transient.World_4:PersistentLevel.VRPlayerController_C_0
-	Function /Game/Blueprints/VRPlayerController.VRPlayerController_C:CheckForInteractiveObjects:00D2
-[2014.10.18-00.58.58:946][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4CB535940
-[2014.10.18-00.58.58:970][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B4CD2763E0
-[2014.10.18-00.58.58:982][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../git/FunWithVR/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2014.10.18-00.58.59:028][199]LogSavePackage: Save=31.911844ms
-[2014.10.18-00.58.59:028][199]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/Untitled_1_Auto11F3C59F5476AE4D0989579A1CB97A05F.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
-[2014.10.18-00.58.59:038][199]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.103
-[2014.10.18-00.58.59:038][199]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.103
-[2014.10.18-00.58.59:064][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HMDWarpChanger] ([1] browsable assets)...
-[2014.10.18-00.58.59:092][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HMDWarpChanger.HMDWarpChanger]
-[2014.10.18-00.58.59:092][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HMDWarpChanger]
-[2014.10.18-00.58.59:097][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HMDWarpChanger" FILE="../../../../../../git/FunWithVR/Saved/Autosaves/Game/Blueprints/HMDWarpChanger_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.10.18-00.58.59:530][199]LogSavePackage: Save=400.514587ms
-[2014.10.18-00.58.59:530][199]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/HMDWarpChanger_Auto1B429DCFC4593B534A93A25BA58FB5842.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game/Blueprints/HMDWarpChanger_Auto1.uasset'
-[2014.10.18-00.58.59:553][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/ContextMenu] ([1] browsable assets)...
-[2014.10.18-00.58.59:591][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/ContextMenu.ContextMenu]
-[2014.10.18-00.58.59:591][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ContextMenu]
-[2014.10.18-00.58.59:597][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ContextMenu" FILE="../../../../../../git/FunWithVR/Saved/Autosaves/Game/Blueprints/ContextMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2014.10.18-00.59.00:194][199]LogSavePackage: Save=562.933960ms
-[2014.10.18-00.59.00:194][199]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/ContextMenu_Auto1053943004D763811E3689C87B2E80484.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game/Blueprints/ContextMenu_Auto1.uasset'
-[2014.10.18-00.59.00:216][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacterExplorationNoHeadBob] ([1] browsable assets)...
-[2014.10.18-00.59.00:240][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacterExplorationNoHeadBob.MyCharacterExplorationNoHeadBob]
-[2014.10.18-00.59.00:240][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacterExplorationNoHeadBob]
-[2014.10.18-00.59.00:699][199]LogSavePackage: Save=413.917572ms
-[2014.10.18-00.59.00:699][199]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/MyCharacterExplorationNoHeadBob_Auto123F6E64C4D59FFDC2AE579ADCAEDC97D.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game/Blueprints/MyCharacterExplorationNoHeadBob_Auto1.uasset'
-[2014.10.18-00.59.00:722][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/ScreenPercentageChanger] ([1] browsable assets)...
-[2014.10.18-00.59.00:740][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/ScreenPercentageChanger.ScreenPercentageChanger]
-[2014.10.18-00.59.00:740][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ScreenPercentageChanger]
-[2014.10.18-00.59.01:163][199]LogSavePackage: Save=378.043793ms
-[2014.10.18-00.59.01:163][199]LogSavePackage: Moving '../../../../../../git/FunWithVR/Saved/ScreenPercentageChanger_Auto1F827C6E34B00D0945C80EF967F5FE4F6.tmp' to '../../../../../../git/FunWithVR/Saved/Autosaves/Game
+[2014.10.18-17.39.23:233][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2014.10.18-17.39.23:284][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.18-17.39.23:299][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.18-17.39.23:307][  0]LogInit: Object subsystem initialized
+[2014.10.18-17.39.23:310][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.10.18-17.39.23:310][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/git/FunWithVR/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.18-17.39.23:310][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480,Value=0.444),(Time=720,Value=0.666),(Time=1080,Value=1.0),(Time=8640,Value=8.0))),ExternalCurve=None)'
+[2014.10.18-17.39.23:310][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/git/FunWithVR/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.10.18-17.39.23:311][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.18-17.39.23:311][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.18-17.39.23:315][  0]LogInit: Computer: RUSS-DESKTOP
+[2014.10.18-17.39.23:315][  0]LogInit: User: russe000
+[2014.10.18-17.39.23:317][  0]LogInit: CPU Page size=4096, Cores=6
+[2014.10.18-17.39.23:317][  0]LogInit: High frequency timer resolution =3.126770 MHz
+[2014.10.18-17.39.23:317][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=131072.0GB
+[2014.10.18-17.39.23:317][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.18-17.39.23:317][  0]LogMemory: Process Physical Memory: 63.20 MB used, 63.20 MB peak
+[2014.10.18-17.39.23:317][  0]LogMemory: Process Virtual Memory: 38.70 MB used, 38.70 MB peak
+[2014.10.18-17.39.23:317][  0]LogMemory: Physical Memory: 10222.84 MB used, 32706.90 MB total
+[2014.10.18-17.39.23:317][  0]LogMemory: Virtual Memory: 279.62 MB used, 134217728.00 MB total
+[2014.10.18-17.39.23:339][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 580 (Feature Level 11_0)
+[2014.10.18-17.39.23:339][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
+[2014.10.18-17.39.23:350][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 580 (Feature Level 11_0)
+[2014.10.18-17.39.23:350][  0]LogD3D11RHI: Adapter has 2954MB of dedicated video memory, 0MB of dedicated system memory, and 16353MB of shared system memory, 2 output[s]
+[2014.10.18-17.39.23:351][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.18-17.39.23:351][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.18-17.39.23:351][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.18-17.39.23:356][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.18-17.39.23:363][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.18-17.39.23:415][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.10.18-17.39.23:535][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.18-17.39.27:640][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.18-17.39.28:015][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.18-17.39.28:057][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.18-17.39.28:094][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.18-17.39.28:094][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.10.18-17.39.28:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../git/FunWithVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.18-17.39.28:094][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.18-17.39.28:151][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.18-17.39.28:163][  0]LogDerivedDataCache: Using Local data cache path D:/Users/russe_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.10.18-17.39.28:310][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.18-17.39.28:310][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.18-17.39.28:515][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.18-17.39.28:518][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.18-17.39.28:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.18-17.39.29:359][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.18-17.39.29:608][  0]SourceControl: Info Source control is disabled
+[2014.10.18-17.39.29:608][  0]SourceControl: Info Source control is disabled
+[2014.10.18-17.39.29:613][  0]SourceControl: Info Source control is disabled
+[2014.10.18-17.39.29:707][  0]LogObj: 23018 objects as part of root set at end of initial load.
+[2014.10.18-17.39.29:707][  0]LogUObjectAllocator: 4823912 out of 0 bytes used by permanent object pool.
+[2014.10.18-17.39.29:755][  0]LogEngine: Initializing Engine...
+[2014.10.18-17.39.29:870][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2014.10.18-17.39.29:877][  0]LogInit: FAudioDevice initialized.
+[2014.10.18-17.39.29:892][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.18-17.39.29:911][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB D:/Users/russe_000/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.10.18-17.39.29:917][  0]LogInit: Texture streaming: Enabled
+[2014.10.18-17.39.29:950][  0]LogInit: Transaction tracking system initialized
+[2014.10.18-17.39.30:016][  0]BlueprintLog: New page: Editor Load
+[2014.10.18-17.39.30:041][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2014.10.18-17.39.30:041][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.10.18-17.39.30:436][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.18-17.39.30:752][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.18-17.39.30:895][  0]LogConsoleResponse:Display: 
+[2014.10.18-17.39.31:043][  0]SourceControl: Info Source control is disabled
+[2014.10.18-17.39.31:043][  0]Cmd: MAP LOAD FILE="../../../../../../git/FunWithVR/Content/Maps/TheFunHouse.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.18-17.39.31:044][  0]LightingResults: New page: Lighting Build
+[2014.10.18-17.39.31:050][  0]MapCheck: New page: Map Check
+[2014.10.18-17.39.31:050][  0]LightingResults: New page: Lighting Build
+[2014.10.18-17.39.31:057][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000526A81BBA0
+[2014.10.18-17.39.31:324][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.10.18-17.39.31:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.18-17.39.31:330][  0]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.18-17.39.31:330][  0]Cmd: MAP CHECKDEP
+[2014.10.18-17.39.31:330][  0]MapCheck: New page: TheFunHouse - Oct 18, 2014, 9:39:31 AM
+[2014.10.18-17.39.31:398][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.082ms to complete.
+[2014.10.18-17.39.31:398][  0]LogFileHelpers: Loading map 'TheFunHouse' took 0.355
+[2014.10.18-17.39.31:492][  0]LogCollectionManager: Loaded 0 collections in 0.000843 seconds
+[2014.10.18-17.39.31:588][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.18-17.39.31:610][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2014.10.18-17.39.31:637][  0]LogLoad: Full Startup: 9.38 seconds (BP compile: 0.11 seconds)
+[2014.10.18-17.39.31:979][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.18-17.39.32:115][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x952.
+[2014.10.18-17.39.32:649][  2]LogAssetRegistry: Asset discovery search completed in 2.6189 seconds
+[2014.10.18-17.39.42:933][332]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.18-17.39.42:933][332]PIE: New page: PIE session: TheFunHouse (Oct 18, 2014, 9:39:42 AM)
+[2014.10.18-17.39.42:937][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003313s)
+[2014.10.18-17.39.42:938][332]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2014.10.18-17.39.42:938][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TheFunHouse.TheFunHouse to /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse (0.004436s)
+[2014.10.18-17.39.43:720][332]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2014.10.18-17.39.43:771][332]LogBlueprint:Warning: [compiler] Warning [0021.51] Compile of ContextMenu successful, but with 1 Warning(s) [in 70 ms]
+[2014.10.18-17.39.43:962][332]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.18-17.39.43:962][332]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.18-17.39.43:985][332]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.18-17.39.43:986][332]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.18-17.39.43:991][332]LogBlueprint:Warning: [compiler] Warning [0021.73] Compile of VRPlayerController successful, but with 4 Warning(s) [in 44 ms]
+[2014.10.18-17.39.44:041][332]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.18-17.39.44:041][332]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'GetControlledPawn' for  Get Controlled Pawn 
+[2014.10.18-17.39.44:064][332]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.18-17.39.44:064][332]LogBlueprint:Warning: [compiler] Warning Could not find the function 'GetControlledPawn' called from  Get Controlled Pawn 
+[2014.10.18-17.39.44:069][332]LogBlueprint:Warning: [compiler] Warning [0021.81] Compile of VRPlayerController successful, but with 4 Warning(s) [in 43 ms]
+[2014.10.18-17.39.44:138][332]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Controller ' is unsafe to call in a construction script.
+[2014.10.18-17.39.44:196][332]LogBlueprint:Warning: [compiler] Warning [0021.94] Compile of ContextMenu successful, but with 1 Warning(s) [in 76 ms]
+[2014.10.18-17.39.44:315][332]LogWorld: Game class is 'VRGameMode_C'
+[2014.10.18-17.39.44:317][332]LogAIModule: Creating AISystem for world TheFunHouse
+[2014.10.18-17.39.44:318][332]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TheFunHouse.TheFunHouse up for play (max tick rate 0) at 2014.10.18-13.39.44
+[2014.10.18-17.39.44:318][332]LogWorld: Bringing up level for play took: 0.001078
+[2014.10.18-17.39.44:321][332]Cmd: oculusdev on 
+[2014.10.18-17.39.44:321][332]Command not recognized: oculusdev on 
+[2014.10.18-17.39.44:321][332]Cmd: hmdwarp 1=1 
+[2014.10.18-17.39.44:321][332]Command not recognized:  hmdwarp 1=1 
+[2014.10.18-17.39.44:321][332]Cmd: hmdwarp s=1.3 
+[2014.10.18-17.39.44:321][332]Command not recognized:  hmdwarp s=1.3 
+[2014.10.18-17.39.44:321][332]Cmd: hmd sp 130.0
+[2014.10.18-17.39.44:321][332]Command not recognized:  hmd sp 130.0
+[2014.10.18-17.39.44:321][332]LogClass: InterfaceDelegate passed: P_Pedestal_C_2
+[2014.10.18-17.39.44:323][332]LogClass: Myo Hub Initialized.
+[2014.10.18-17.39.44:323][332]LogClass: Myo Delegate Set (should only be called once per begin play or you have duplicates).
+[2014.10.18-17.39.44:324][332]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TheFunHouse 2.353
+[2014.10.18-17.39.57:099][439]LogClass: Myo 1  has connected.
+[2014.10.18-17.40.37:196][968]LogClass: Myo Hub Shutdown.
+[2014.10.18-17.40.37:267][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000526F48B9C0
+[2014.10.18-17.40.39:592][140]Cmd: QUIT_EDITOR
+[2014.10.18-17.40.39:885][140]LogExit: Preparing to exit.
+[2014.10.18-17.40.40:471][140]LogExit: Editor shut down
+[2014.10.18-17.40.40:472][140]LogExit: Transaction tracking system shut down
+[2014.10.18-17.40.40:472][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005262290900
+[2014.10.18-17.40.40:473][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000526F2C5C60
+[2014.10.18-17.40.40:473][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005272B47420
+[2014.10.18-17.40.40:494][140]LogExit: Object subsystem successfully closed.
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module CrashTracker (166)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module SuperSearch (165)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module SceneOutliner (164)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module EditorWidgets (163)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module CollectionManager (162)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module FoliageEdit (160)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module LandscapeEditor (159)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module MeshPaint (158)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module ActorPickerMode (157)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module GeometryMode (156)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module TextureAlignMode (155)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module BspMode (154)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module PlacementMode (153)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module AutomationWorker (152)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module CharacterAI (151)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (150)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module IntroTutorials (149)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (148)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module HardwareTargeting (147)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (146)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (139)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (138)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (135)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (134)
+[2014.10.18-17.40.40:534][140]LogModuleManager: Shutting down and abandoning module InputBindingEditor (133)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (132)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module SettingsEditor (131)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module ProjectLauncher (130)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module SessionFrontend (129)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module ProfilerClient (128)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (127)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module DeviceManager (126)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module AutomationWindow (124)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module Layers (123)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (122)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module DetailCustomizations (121)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module PackagesDialog (120)
+[2014.10.18-17.40.40:535][140]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module Kismet (117)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module MovieSceneTools (112)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module OutputLog (111)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module GammaUI (110)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module Documentation (109)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (108)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (107)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module HTTP (106)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module AnalyticsET (105)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module Analytics (104)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module GameplayDebugger (103)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module AIModule (102)
+[2014.10.18-17.40.40:551][140]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module MyoPlugin (99)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2014.10.18-17.40.40:749][140]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2014.10.18-17.40.40:750][140]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2014.10.18-17.40.40:851][140]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2014.10.18-17.40.40:851][140]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module Media (66)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2014.10.18-17.40.40:853][140]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module Core (47)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2014.10.18-17.40.40:855][140]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2014.10.18-17.40.41:181][140]LogDerivedDataCache: Shutdown
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.18-17.40.41:181][140]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.18-17.40.41:182][140]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.18-17.40.41:182][140]LogExit: Exiting.
+[2014.10.18-17.40.41:186][140]Log file closed, 10/18/14 13:40:41

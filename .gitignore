@@ -16,3 +16,5 @@
 *~
 *.pyc
 AssetBases/autoback
+/Plugins/FluidSurfacePlugin_v0_1_0/FluidSurface/Binaries
+/Plugins/MyoPlugin/Binaries/

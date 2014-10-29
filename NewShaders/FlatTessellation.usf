@@ -180,7 +180,6 @@ struct FFlatTessellationHSToDS
 		float3 FluidDisplacement = VertexFactoryGetWorldDisplacement(GetTextureCoordinateDS( Interp ));
 		WorldPosition.xyz += FluidDisplacement;
 #endif
-
 		// world space displacement value.  This will likely use the tangent2world transform.
 		float3 WorldDisplacement = GetMaterialWorldDisplacement(DisplacementMaterialParameters);
 

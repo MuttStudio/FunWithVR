@@ -47,8 +47,8 @@ UFluidSurfaceComponent::UFluidSurfaceComponent( const FPostConstructInitializePr
 	ShootStrength = -50.f;
 	ShootRadius = 0.f;
 	TouchStrength = -50.f;
-	FluidNoiseFrequency = 60.f;
 
+	FluidNoiseFrequency = 60.f;
 	FluidNoiseStrength.MinValue = -70.f;
 	FluidNoiseStrength.MaxValue = 70.f;
 

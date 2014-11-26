@@ -8,7 +8,7 @@ public class FunWithVRTarget : TargetRules
     public FunWithVRTarget(TargetInfo Target)
     {
         Type = TargetType.Game;
-        //AdditionalPlugins.AddRange(new string[] { "KinectV2" });
+        AdditionalPlugins.AddRange(new string[] { "KinectV2" });
     }
 
     //

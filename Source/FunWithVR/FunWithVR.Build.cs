@@ -6,11 +6,7 @@ public class FunWithVR : ModuleRules
 {
     public FunWithVR(TargetInfo Target)
     {
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "KinectV2"});
-
-        AdditionalPlugins.AddRange(new string[] { "KinectV2" });
-
-        PrivateDependencyModuleNames.AddRange(new string[] { "KinectV2" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

@@ -1,0 +1,20 @@
+{
+    "FileVersion" : 3,
+	
+	"FriendlyName" : "Arduino Communication Plugin",
+	"Version" : 1,
+	"VersionName" : "0.1.1",
+	"CreatedBy" : "VivekL",
+	"CreatedByURL" : "http://muttstudiogames.com",
+	"EngineVersion" : 1579795,
+	"Description" : "Simple Control Plugin for Arduino",
+	"Category" : "Devices.Arduino",
+	
+    "Modules" :
+	[
+		{
+			"Name" : "ArduinoPlugin",
+			"Type" : "Runtime"
+		}
+	]
+}
